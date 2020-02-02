@@ -1,0 +1,95 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:     
+  - name: 'section'
+    label: 'Section'
+    editor:
+      preview: false
+    files:
+      - file: 'content/metadata.md'
+        label: 'Metadata'
+        name: 'metadata'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'metadata',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'text' }
+          - { label: 'Social Image', name: 'image', widget: 'image', required: false }
+          - { label: 'Instagram', name: 'instagram', widget: 'string', required: false }
+          - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
+          - { label: 'Tél', name: 'tél', widget: 'string', required: false }          
+          - { label: 'Email', name: 'email', widget: 'string', required: false }
+          - { label: 'Adresse rue', name: 'street', widget: 'string', required: false }         
+          - { label: 'Adresse ville', name: 'city', widget: 'string', required: false }  
+      - file: 'content/prestations.md'
+        label: 'Prestations'
+        name: 'prestations'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'prestations',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Article',
+              name: 'article',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Image', name: 'image', widget: 'image', required: false },
+                  { label: 'Texte', name: 'texte', widget: 'markdown', required: false },
+                ],
+            }          
+      - file: 'content/biographie.md'
+        label: 'Biographie'
+        name: 'biographie'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'biographie',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Article',
+              name: 'article',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Texte', name: 'texte', widget: 'markdown', required: false },
+                ],
+            }   
+          - { label: 'Image', name: 'image', widget: 'image', required: false }
+      - file: 'content/references.md'
+        label: 'Références'
+        name: 'references'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'references',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Article',
+              name: 'article',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Texte', name: 'texte', widget: 'markdown', required: false },
+                ],
+            }   
+          - { label: 'Image', name: 'image', widget: 'image', required: false }        
