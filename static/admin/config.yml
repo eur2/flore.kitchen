@@ -26,7 +26,7 @@ collections:
           - { label: 'Social Image', name: 'image', widget: 'image', required: false }
           - { label: 'Instagram', name: 'instagram', widget: 'string', required: false }
           - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
-          - { label: 'Tél', name: 'tél', widget: 'string', required: false }          
+          - { label: 'Tél', name: 'tel', widget: 'string', required: false }          
           - { label: 'Email', name: 'email', widget: 'string', required: false }
           - { label: 'Adresse rue', name: 'street', widget: 'string', required: false }         
           - { label: 'Adresse ville', name: 'city', widget: 'string', required: false }  
@@ -41,16 +41,22 @@ collections:
               default: 'prestations',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
           - { label: 'Article',
               name: 'article',
               widget: 'list',
               fields:
                 [
-                  { label: 'Image', name: 'image', widget: 'image', required: false },
-                  { label: 'Texte', name: 'texte', widget: 'markdown', required: false },
-                ],
-            }          
+                  { label: 'Titre', name: 'title', widget: 'markdown', required: false },
+                  { label: 'Texte', name: 'text', widget: 'text', required: false },
+                - { label: 'Menu',
+                    name: 'menu',
+                    widget: 'list',
+                    fields:
+                      [
+                        { label: 'Image', name: 'image', widget: 'image', required: false },
+                        { label: 'Texte', name: 'text', widget: 'markdown', required: false },
+                      ],
+                  }          
       - file: 'content/biographie.md'
         label: 'Biographie'
         name: 'biographie'
@@ -61,14 +67,14 @@ collections:
               widget: 'hidden',
               default: 'biographie',
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Titre', name: 'title', widget: 'string' }
+          - { label: 'Sous-titre', name: 'subtitle', widget: 'text' }
           - { label: 'Article',
               name: 'article',
               widget: 'list',
               fields:
                 [
-                  { label: 'Texte', name: 'texte', widget: 'markdown', required: false },
+                  { label: 'Texte', name: 'text', widget: 'text', required: false },
                 ],
             }   
           - { label: 'Image', name: 'image', widget: 'image', required: false }
@@ -83,13 +89,13 @@ collections:
               default: 'references',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Sous-titre', name: 'subtitle', widget: 'text' }
           - { label: 'Article',
               name: 'article',
               widget: 'list',
               fields:
                 [
-                  { label: 'Texte', name: 'texte', widget: 'markdown', required: false },
+                  { label: 'Texte', name: 'text', widget: 'markdown', required: false },
                 ],
             }   
           - { label: 'Image', name: 'image', widget: 'image', required: false }        
