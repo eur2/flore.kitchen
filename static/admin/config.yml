@@ -56,7 +56,8 @@ collections:
                         { label: 'Image', name: 'image', widget: 'image', required: false },
                         { label: 'Texte', name: 'text', widget: 'markdown', required: false },
                       ],
-                  }          
+                  }  
+            }   
       - file: 'content/biographie.md'
         label: 'Biographie'
         name: 'biographie'
