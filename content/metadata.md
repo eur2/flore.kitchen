@@ -1,4 +1,5 @@
 ---
+templateKey: metadata
 title: Flore
 description: |-
   Cheffe à domicile,

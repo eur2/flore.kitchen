@@ -1,4 +1,5 @@
 ---
+templateKey: references
 title: Références
 subtitle: >-
   De plus, sa flexibilité et ses grandes qualités organisationnelles seront les

@@ -1,4 +1,5 @@
 ---
+templateKey: buffets
 title: Buffets
 subtitle: >-
   Des plats créatifs, gourmands et conviviaux servis en buffet pour toutes vos

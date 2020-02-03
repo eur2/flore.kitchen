@@ -1,4 +1,5 @@
 ---
+templateKey: biographie
 title: Biographie
 subtitle: >-
   Travaillant dans les cuisines en France et à l'étranger depuis plus de dix

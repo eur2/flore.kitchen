@@ -11,26 +11,17 @@ html {
   -webkit-tap-highlight-color: transparent;
   background-color: white;
   color: black;
+  scroll-behavior: smooth;
 }
 body {
   font-family: 're', Arial, Helvetica, sans-serif;
   font-family: serif;
   font-size: 20px;
   line-height: 1.6;
-  font-weight: bold;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-/* *,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-} */
-/*::selection {
-  text-shadow: none;
-  background-color: rgb(0, 256, 0);
-}*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -38,13 +29,11 @@ body {
 a,
 a:active,
 a:hover {
-  color: white;
-  border-bottom: 1px solid #fff;
+  color: black;
   text-decoration: none;
-  cursor: pointer;
 }
-a:hover {
-  border: 0;
+a:hover, ::selection {
+  color: rgb(0, 255, 0);
 }
 iframe,
 img {
@@ -57,22 +46,16 @@ h2,
 h3,
 h4 {
   font-size: 1em;
+  font-weight: normal;
 }
-ul {
+/* ul {
   padding: 0;
   list-style: none;
-}
-#gatsby-focus-wrapper {
+} */
+/* #gatsby-focus-wrapper {
   margin: 3em;
   max-width: 720px;
-}
-.mb1 {
-  margin-bottom: 0.5em;
-}
-.mb,
-.body-mb p {
-  margin-bottom: 4em;
-}
+} */
 .mbl1 {
   margin-block-end: 1em;
 }
@@ -120,8 +103,8 @@ ul {
     opacity: 0;
   }
 }
-@media only screen and (max-width: 600px) {
-  #gatsby-focus-wrapper {
-    margin: 2em 1em 2em 1em;
+@media only screen and (min-width: 600px) {
+  body{
+    font-size: 32px;
   }
 }

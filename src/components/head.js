@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 const Head = ({ title, description, image }) => (
   <Helmet>
-    <html lang="en" />
+    <html lang="fr" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="og:title" content={title} />

@@ -27,7 +27,7 @@ module.exports = {
       options: {
         tableOfContents: {
           heading: null,
-          maxDepth: 2,
+          maxDepth: 1,
         },
         plugins: [
           {
@@ -36,7 +36,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 720,
+              maxWidth: 800,
               quality: 80,
               backgroundColor: 'transparent',
               linkImagesToOriginal: false,

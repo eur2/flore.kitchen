@@ -1,4 +1,5 @@
 ---
+templateKey: aperitifs
 title: Apéritifs
 subtitle: >-
   De petites pièces originales à déguster debout pour un apéritif, un cocktail

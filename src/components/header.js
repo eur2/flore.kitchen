@@ -1,48 +1,51 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import Img from 'gatsby-image';
 
-const Header = ({ title, instagram, animation }) => (
-  <header>
-    <h1 className="mb">
-      <Link to="/" className="b0">
-        {title}
-      </Link>
-    </h1>
-    <nav className="mb">
-      <ul>
-        {/* <li>
-          <Link to="/2020" activeClassName="b0" partiallyActive={true}>
-            Notes 2020
-          </Link>
-        </li> 
-         <li>
-          <Link to="/2019" activeClassName="b0" partiallyActive={true}>
-            Notes 2019
-          </Link>
-        </li> */}
-        <li>
-          <a href={instagram} target="_blank" rel="noopener noreferrer">
-            News
-          </a>
-        </li>
-        <li>
-          <Link to="/about" activeClassName="b0" partiallyActive={true}>
-            About
-          </Link>
-        </li>
-      </ul>
+// import { Link } from 'gatsby';
+
+const Header = ({
+  title,
+  description,
+  image,
+  instagram,
+  facebook,
+  tel,
+  email,
+  street,
+  city,
+}) => (
+  <header id="top">
+    <nav>
+      <a href="#prestations">Prestations</a>
+      <a href="#biographie">Biographie</a>
+      <a href="#references">Références</a>
     </nav>
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    {image && (
+      <Img
+        fluid={image}
+        style={{ maxWidth: '200px' }}
+        alt={title}
+        // className="mb1"
+      />
+    )}
 
-    <aside className="mb">
-      <Link
-        to="/shop"
-        className={animation}
-        activeClassName="b0"
-        partiallyActive={true}
-      >
-        Shop
-      </Link>
-    </aside>
+    <nav className="">
+      <a href={facebook} target="_blank" rel="noopener noreferrer">
+        Facebook
+      </a>
+      <a href={instagram} target="_blank" rel="noopener noreferrer">
+        Instagram
+      </a>
+      <a href={tel}>{tel}</a>
+      <a href={`mailto:${email}`}>{email}</a>
+      <p>
+        {street}
+        <br />
+        {city}
+      </p>
+    </nav>
   </header>
 );
 export default Header;
