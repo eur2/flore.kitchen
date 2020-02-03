@@ -17,8 +17,8 @@ const Instagram = () => {
   }, []);
   return (
     <section>
-      <figure>
-        <img src={index.display_url} />
+      <figure className="flex w100">
+        <img className="h50 m-auto" src={index.display_url} />
         <figcaption></figcaption>
       </figure>
     </section>
