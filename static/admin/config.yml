@@ -30,35 +30,50 @@ collections:
           - { label: 'Email', name: 'email', widget: 'string', required: false }
           - { label: 'Adresse rue', name: 'street', widget: 'string', required: false }         
           - { label: 'Adresse ville', name: 'city', widget: 'string', required: false }  
-      - file: 'content/prestations.md'
-        label: 'Prestations'
-        name: 'prestations'
+      - file: 'content/aperitifs.md'
+        label: 'Apéritifs'
+        name: 'aperitifs'
         fields:
           - {
               label: 'Template Key',
               name: 'templateKey',
               widget: 'hidden',
-              default: 'prestations'
+              default: 'aperitifs'
             }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Article',
-              name: 'article',
+          - { label: 'Sous-titre', name: 'subtitle', widget: 'text', required: false }
+          - { label: 'Menu',
+              name: 'menu',
               widget: 'list',
               fields:
                 [
+                  { label: 'Image', name: 'image', widget: 'image', required: false },
                   { label: 'Titre', name: 'title', widget: 'string', required: false },
-                  { label: 'Texte', name: 'text', widget: 'text', required: false },
-                  { label: 'Menu',
-                    name: 'menu',
-                    widget: 'list',
-                    fields:
-                      [
-                        { label: 'Image', name: 'image', widget: 'image', required: false },
-                        { label: 'Texte', name: 'text', widget: 'markdown', required: false }
-                      ]
-                  }
+                  { label: 'Texte', name: 'text', widget: 'markdown', required: false }
                 ]
-            }   
+            }
+      - file: 'content/buffets.md'
+        label: 'Buffets'
+        name: 'buffets'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'buffets'
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Sous-titre', name: 'subtitle', widget: 'text', required: false }
+          - { label: 'Menu',
+              name: 'menu',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Image', name: 'image', widget: 'image', required: false },
+                  { label: 'Titre', name: 'title', widget: 'string', required: false },
+                  { label: 'Texte', name: 'text', widget: 'markdown', required: false }
+                ]
+            }            
       - file: 'content/biographie.md'
         label: 'Biographie'
         name: 'biographie'
