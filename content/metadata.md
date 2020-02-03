@@ -7,9 +7,9 @@ description: |-
 image: /assets/logo.jpg
 instagram: insta
 facebook: face
-tel: tel
-email: email
-street: rue
-city: paris
+tel: 07 68 68 65 01
+email: flore@flore.fr
+street: 104 rue de Meaux
+city: ' 75019 Paris'
 ---
 
