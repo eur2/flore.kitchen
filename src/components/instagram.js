@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 const Instagram = () => {
   // Client-side Runtime Data Fetching
-  const [starsCount, setStarsCount] = useState(0);
+  const [index, setIndex] = useState(0);
   useEffect(() => {
     // get data from GitHub api
     fetch(
@@ -10,12 +10,17 @@ const Instagram = () => {
     )
       .then(response => response.json()) // parse JSON from request
       .then(resultData => {
-        setStarsCount(resultData.data.user.edge_owner_to_timeline_media.count);
+        setIndex(
+          resultData.data.user.edge_owner_to_timeline_media.edges[1].node
+        );
       }); // set data for the number of stars
   }, []);
   return (
     <section>
-      <p>Runtime Data: {starsCount}</p>
+      <figure>
+        <img src={index.display_url} />
+        <figcaption></figcaption>
+      </figure>
     </section>
   );
 };
