@@ -1,7 +1,7 @@
 ---
 templateKey: metadata
 title: Flore
-description: 'Cheffe à domicile, traiteur, catering'
+description: 'Traiteur sur mesure, cheffe à domicile'
 image: /assets/logo.jpg
 instagram: 'https://www.instagram.com/floregranboulan/'
 facebook: 'https://www.instagram.com/floregranboulan/'
