@@ -46,7 +46,7 @@ collections:
               widget: 'list',
               fields:
                 [
-                  { label: 'Titre', name: 'title', widget: 'markdown', required: false },
+                  { label: 'Titre', name: 'title', widget: 'string', required: false },
                   { label: 'Texte', name: 'text', widget: 'text', required: false },
                   { label: 'Menu',
                     name: 'menu',
