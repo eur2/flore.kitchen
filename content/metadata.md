@@ -1,6 +1,8 @@
 ---
-title: Title
-description: Desc
+title: Flore
+description: |-
+  Cheffe à domicile,
+  traiteur, catering
 image: /assets/logo.jpg
 instagram: insta
 facebook: face
