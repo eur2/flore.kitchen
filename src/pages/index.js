@@ -5,12 +5,13 @@ import Buffets from '../components/buffets';
 import Aperitifs from '../components/aperitifs';
 import Biographie from '../components/biographie';
 import References from '../components/references';
-
+import Instagram from '../components/instagram';
 const Index = () => {
   // const { markdownRemark: post } = data;
   // const { edges: posts } = data.allMarkdownRemark;
   return (
     <Layout>
+      <Instagram />
       <section id="prestations">
         <Aperitifs />
         <Buffets />
