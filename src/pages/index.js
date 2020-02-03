@@ -2,6 +2,7 @@ import React from 'react';
 // import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Buffets from '../components/buffets';
+import Aperitifs from '../components/aperitifs';
 import Biographie from '../components/biographie';
 import References from '../components/references';
 
@@ -11,6 +12,7 @@ const Index = () => {
   return (
     <Layout>
       <section id="prestations">
+        <Aperitifs />
         <Buffets />
       </section>
       <Biographie />

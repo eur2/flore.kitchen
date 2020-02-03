@@ -53,7 +53,6 @@ const Layout = ({ children }) => (
           city={data.markdownRemark.frontmatter.city}
         />
         <main role="main">{children}</main>
-        <a href="#top">Top</a>
       </>
     )}
   />

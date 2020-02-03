@@ -2,11 +2,11 @@ import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 
-const Buffets = () => (
+const Aperitifs = () => (
   <StaticQuery
     query={graphql`
-      query Buffets {
-        markdownRemark(frontmatter: { templateKey: { eq: "buffets" } }) {
+      query Aperi {
+        markdownRemark(frontmatter: { templateKey: { eq: "aperitifs" } }) {
           html
           frontmatter {
             templateKey
@@ -37,7 +37,7 @@ const Buffets = () => (
         <div className="content">
           {data.markdownRemark.frontmatter.menu &&
             data.markdownRemark.frontmatter.menu.map(item => (
-              <div key={item.image.id}>
+              <article key={item.image.id}>
                 {item.image.childImageSharp.fluid && (
                   <Img
                     fluid={item.image.childImageSharp.fluid}
@@ -47,7 +47,7 @@ const Buffets = () => (
                 )}
                 <h4>{item.title}</h4>
                 <div dangerouslySetInnerHTML={{ __html: item.text }} />
-              </div>
+              </article>
             ))}
         </div>
       </section>
@@ -55,4 +55,4 @@ const Buffets = () => (
   />
 );
 
-export default Buffets;
+export default Aperitifs;

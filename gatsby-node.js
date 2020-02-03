@@ -1,4 +1,4 @@
-const path = require(`path`)
+// const path = require(`path`)
 const { createFilePath } = require('gatsby-source-filesystem')
 const webpack = require ('webpack');
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')

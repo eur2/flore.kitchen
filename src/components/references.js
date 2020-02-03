@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 
-const References = ({ children }) => (
+const References = () => (
   <StaticQuery
     query={graphql`
       query Ref {
@@ -29,13 +29,17 @@ const References = ({ children }) => (
     `}
     render={data => (
       <section id={data.markdownRemark.frontmatter.templateKey}>
-        <h3>{data.markdownRemark.frontmatter.title}</h3>
-        <h4>{data.markdownRemark.frontmatter.subtitle}</h4>
-        {data.markdownRemark.frontmatter.article &&
-          data.markdownRemark.frontmatter.article.map(item =>
-            item.text ? <p>{item.text}</p> : null
-          )}
-        {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
+        <header>
+          <h3>{data.markdownRemark.frontmatter.title}</h3>
+          <h4>{data.markdownRemark.frontmatter.subtitle}</h4>
+        </header>
+        <div className="content">
+          {data.markdownRemark.frontmatter.article &&
+            data.markdownRemark.frontmatter.article.map(item =>
+              item.text ? <p>{item.text}</p> : null
+            )}
+          {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
+        </div>
         {data.markdownRemark.frontmatter.image.childImageSharp.fluid && (
           <Img
             fluid={data.markdownRemark.frontmatter.image.childImageSharp.fluid}

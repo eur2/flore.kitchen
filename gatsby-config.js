@@ -54,7 +54,7 @@ module.exports = {
         short_name: 'Flore',
         start_url: '/',
         display: 'standalone',
-        icon: `static/logo_an.png`,
+        icon: `static/logo.png`,
       },
     },
     {
