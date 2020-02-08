@@ -16,7 +16,7 @@ const Buffets = () => (
               image {
                 id
                 childImageSharp {
-                  fluid(maxWidth: 1200, quality: 80) {
+                  fluid(maxWidth: 800, quality: 80) {
                     ...GatsbyImageSharpFluid_noBase64
                   }
                 }
@@ -41,7 +41,7 @@ const Buffets = () => (
                 {item.image.childImageSharp.fluid && (
                   <Img
                     fluid={item.image.childImageSharp.fluid}
-                    style={{ maxWidth: '600px' }}
+                    style={{ margin: 'auto' }}
                     alt="flore"
                   />
                 )}

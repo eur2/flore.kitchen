@@ -40,13 +40,13 @@ const References = () => (
             )}
           {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
         </div>
-        {data.markdownRemark.frontmatter.image.childImageSharp.fluid && (
+        {/* {data.markdownRemark.frontmatter.image.childImageSharp.fluid && (
           <Img
             fluid={data.markdownRemark.frontmatter.image.childImageSharp.fluid}
             style={{ maxWidth: '1200px' }}
             alt="flore"
           />
-        )}
+        )} */}
       </section>
     )}
   />

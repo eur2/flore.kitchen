@@ -16,7 +16,7 @@ html {
 body {
   font-family: 're', Arial, Helvetica, sans-serif;
   font-family: serif;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.2;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -26,15 +26,18 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
+:root {
+  --color=: rgb(0, 255, 0);
+}
 a,
 a:active,
 a:hover {
   color: black;
   text-decoration: none;
-  cursor: pointer;
 }
-a:hover, ::selection {
-  color: rgb(0, 255, 0);
+a:hover,
+::selection {
+  color: var(--color);
 }
 iframe,
 img {
@@ -49,20 +52,30 @@ h4 {
   font-size: 1em;
   font-weight: normal;
 }
-h1,h3{text-transform: uppercase;}
+h1,
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+h3 {
+  margin-block-end: 1em;
+}
 /* h1,h2{
   font-size: 2em;
 } */
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   text-align: center;
 }
-#___gatsby{
+#___gatsby {
   max-width: 1024px;
   margin: auto;
 }
-footer div{
+footer div {
   flex: 1;
-text-align: center;
+  text-align: center;
 }
 /* ul {
   padding: 0;
@@ -72,32 +85,54 @@ text-align: center;
   margin: 3em;
   max-width: 720px;
 } */
-.nav{
+nav {
   position: fixed;
   z-index: 10;
   bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   width: 100%;
-  background-image: linear-gradient(to bottom, transparent 0%, white 25%, rgb(0,255,0) 100%);
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    white 25%,
+    white 50%,
+    rgb(0, 255, 0) 100%
+  );
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
-.nav a {
-  padding-left: .5em;
-  padding-right: .5em;
+nav a {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
 }
-.content{
+.content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  min-height: 50vh;
 }
-.content div, .content article{
+.content div,
+.content article,
+.content p {
   padding: 1em;
 }
-section{
+.content p {
+  flex: 1;
+}
+section {
   min-height: 100vh;
+}
+.insta {
+  flex: 50%;
+  padding: 0.5em;
 }
 .fixed {
   position: fixed;
+  z-index: 9;
 }
 .sticky {
   position: sticky;
@@ -120,26 +155,27 @@ section{
 .mh100 {
   min-height: 100vh;
 }
-.h-auto-100vh{
+.h-auto-100vh {
   height: auto;
 }
 .h100 {
   height: 100vh;
 }
-.h50{
-  height: 50vh;
+.h50 {
+  height: 25vh;
   width: auto;
 }
 
-.w50{
+.w50 {
   width: 50%;
 }
 .w100 {
   width: 100%;
 }
-.mw, section header {
+.mw,
+header {
   max-width: 600px;
-  padding: 0 0.5em 0.5em 0.5em;
+  padding: 2em 0.5em 2em 0.5em;
   margin: auto;
 }
 .bgwhite {
@@ -148,12 +184,12 @@ section{
 .black {
   color: black;
 }
-.z2 {
+/* .z2 {
   z-index: 2;
 }
 .z3 {
   z-index: 3;
-}
+} */
 .center {
   text-align: center;
 }
@@ -172,7 +208,7 @@ section{
 .m1 {
   margin: 1em;
 }
-.m-auto{
+.m-auto {
   margin: auto;
 }
 .p2 {
@@ -181,13 +217,16 @@ section{
 .p {
   padding: 0.5rem;
 }
+.p {
+  padding: 0.5em;
+}
 .p1 {
   padding: 1em;
 }
 .none {
   display: none;
 }
-.block{
+.block {
   display: block;
 }
 .flex {
@@ -222,17 +261,22 @@ section{
 } */
 
 @media only screen and (min-width: 800px) {
-  body{
+  .h50 {
+    height: 33vh;
+  }
+  .content {
+    flex-wrap: nowrap;
+  }
+  .insta {
+    flex: 25%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  body {
     font-size: 32px;
   }
-  p,ul {
-  font-size: .5em;
-}
-/* h1,
-h2,
-h3,
-h4 {
-  font-size: 1em;
-  font-weight: normal;
-} */
+  p,
+  ul {
+    font-size: 0.5em;
+  }
 }

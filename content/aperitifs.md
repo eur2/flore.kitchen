@@ -24,7 +24,7 @@ menu:
 
 
       Crackers de pois chiches, blettes et légumes aux épices douces, coriandre
-    title: Menu
+    title: Menu-titre
   - image: /assets/unnamed-3.jpg
     text: >-
       * Gaspacho de betteraves à l’orange, crème montée à l’aneth (photo)  
@@ -36,6 +36,6 @@ menu:
 
       * Crackers de pois chiches, blettes et légumes aux épices douces,
       coriandre
-    title: Menu
+    title: Menu-titre
 ---
 

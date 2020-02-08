@@ -18,7 +18,7 @@ const Biographie = () => (
             image {
               id
               childImageSharp {
-                fluid(maxWidth: 1200, quality: 80) {
+                fluid(maxWidth: 800, quality: 80) {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }
@@ -41,11 +41,14 @@ const Biographie = () => (
           {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
         </div>
         {data.markdownRemark.frontmatter.image.childImageSharp.fluid && (
-          <Img
-            fluid={data.markdownRemark.frontmatter.image.childImageSharp.fluid}
-            style={{ maxWidth: '1200px' }}
-            alt="flore"
-          />
+          <div className="mw">
+            <Img
+              fluid={
+                data.markdownRemark.frontmatter.image.childImageSharp.fluid
+              }
+              alt="flore"
+            />
+          </div>
         )}
       </section>
     )}

@@ -4,7 +4,8 @@ import { graphql, StaticQuery } from 'gatsby';
 import '../styles/layout.css';
 import Head from './head';
 import Header from './header';
-//import Nav from './nav';
+import Nav from './nav';
+import Social from './social';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -20,7 +21,7 @@ const Layout = ({ children }) => (
               publicURL
               id
               childImageSharp {
-                fluid(maxWidth: 200, quality: 70) {
+                fluid(maxWidth: 180, quality: 80) {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }
@@ -46,11 +47,15 @@ const Layout = ({ children }) => (
           title={data.markdownRemark.frontmatter.title}
           description={data.markdownRemark.frontmatter.description}
           image={data.markdownRemark.frontmatter.image.childImageSharp.fluid}
-          facebook={data.markdownRemark.frontmatter.facebook}
           tel={data.markdownRemark.frontmatter.tel}
           email={data.markdownRemark.frontmatter.email}
           street={data.markdownRemark.frontmatter.street}
           city={data.markdownRemark.frontmatter.city}
+        />
+        <Nav />
+        <Social
+          instagram={data.markdownRemark.frontmatter.instagram}
+          facebook={data.markdownRemark.frontmatter.facebook}
         />
         <main role="main">{children}</main>
       </>

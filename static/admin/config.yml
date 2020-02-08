@@ -115,4 +115,12 @@ collections:
                   { label: 'Texte', name: 'text', widget: 'markdown', required: false }
                 ]
             }   
-          - { label: 'Image', name: 'image', widget: 'image', required: false }        
+          - { label: 'Image', name: 'image', widget: 'image', required: false } 
+          - { label: 'Clients logo',
+              name: 'logo',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Image', name: 'image', widget: 'image' }
+                ]
+            }          

@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
-const Nav = ({ mail, instagram, facebook }) => (
-  <>
-    <nav className="mb"></nav>
-  </>
+const Nav = () => (
+  <nav className="flex wrap">
+    <a href="#contact">Contact</a>
+    <a href="#prestations">Prestations</a>
+    <a href="#biographie">Biographie</a>
+    <a href="#references">Références</a>
+  </nav>
 );
 export default Nav;

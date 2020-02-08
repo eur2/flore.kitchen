@@ -1,76 +1,47 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
-// import { Link } from 'gatsby';
-
-const Header = ({
-  title,
-  description,
-  image,
-  instagram,
-  facebook,
-  tel,
-  email,
-  street,
-  city,
-}) => (
+const Header = ({ title, description, image, tel, email, street, city }) => (
   <header id="contact" className="flex w100 wrap mh100 ai-center jc-center">
-    <nav className="nav">
+    <div className="w100">
+      <h1>
+        <a href="">{title}</a>
+      </h1>
+      <h2>{description}</h2>
+      <h2>
+        <a href={`tel:${tel}`}>{tel}</a>
+      </h2>
+    </div>
+    <div className="w100">
+      {image && (
+        <a href="#prestations">
+          <Img
+            fluid={image}
+            // style={{ maxwidth: '180px' }}
+            alt={title}
+            className="h50 m-auto"
+          />
+        </a>
+      )}
+    </div>
+    <div className="w100">
+      <h2>
+        {street}, {city}
+        <br />
+        <a href={`mailto:${email}`}>{email}</a>
+        <br />
+        <br />
+      </h2>
+    </div>
+  </header>
+);
+export default Header;
+
+{
+  /* <nav className="nav">
       <a href="#contact">Contact</a>
       <a href="#prestations">Prestations</a>
       <a href="#biographie">Biographie</a>
       <a href="#references">Références</a>
-    </nav>
-    <div className="w100">
-      <h1>{title}</h1>
-      <h2>{description}</h2>
-    </div>
-    <div className="w100">
-      {image && (
-        <Img
-          fluid={image}
-          style={{ maxwidth: '200px' }}
-          alt={title}
-          className="h50 m-auto"
-        />
-      )}
-    </div>
-    <footer className="flex w100">
-      <div>
-        <div>Social</div>
-        <a
-          className="block"
-          href={facebook}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Facebook
-        </a>
-        <a
-          className="block"
-          href={instagram}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Instagram
-        </a>
-      </div>
-      <div>
-        <a className="block" href={`tel:${tel}`}>
-          {tel}
-        </a>
-        <a className="block" href={`mailto:${email}`}>
-          {email}
-        </a>
-      </div>
-      <div>
-        <p>
-          {street}
-          <br />
-          {city}
-        </p>
-      </div>
-    </footer>
-  </header>
-);
-export default Header;
+    </nav> */
+}
