@@ -207,7 +207,7 @@ section {
 .mw,
 header {
   max-width: 600px;
-  padding: 2em 0.5em 2em 0.5em;
+  padding: 1.5em 0.5em 2em 0.5em;
   margin: auto;
 }
 .bgwhite {
@@ -324,6 +324,10 @@ header {
   }
   .logo {
     flex: 10%;
+  }
+  .mw,
+  header {
+    padding: 2em 0.5em 2em 0.5em;
   }
 }
 @media only screen and (min-width: 1024px) {
