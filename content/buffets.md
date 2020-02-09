@@ -5,7 +5,7 @@ subtitle: >-
   Des plats créatifs, gourmands et conviviaux servis en buffet pour toutes vos
   occasions festives.
 menu:
-  - image: /assets/unnamed-1.jpg
+  - image: /assets/salade.jpg
     plats:
       - plat: >-
           Mijoté aux deux lentilles (lentilles vertes et lentilles corail),
@@ -19,7 +19,7 @@ menu:
       - plat: Condiment coco-coriandre-piment
       - plat: 'Fondant à la courge et aux amandes, caramel au café'
     title: Menu couleurs d'hiver
-  - image: /assets/unnamed.jpg
+  - image: /assets/IMG_9825.JPG
     plats:
       - plat: Polenta fondante aux herbes de Provence et aux olives de Kalamata
       - plat: Sauce tomates relevée au pastis et à l’orange
