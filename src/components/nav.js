@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Nav = () => (
-  <nav className="flex wrap">
+  <nav className="fixed w100 b0 l0 r0 flex jc-center wrap p">
     <a href="#contact">Contact</a>
     <a href="#prestations">Prestations</a>
     <a href="#biographie">Biographie</a>

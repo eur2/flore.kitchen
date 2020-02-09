@@ -47,7 +47,21 @@ const Aperitifs = () => (
                     alt="flore"
                   />
                 )}
-                <details>
+                <div>
+                  <h4>{item.title}</h4>
+                  <ul>
+                    {item.plats &&
+                      item.plats.map((item, index) => (
+                        <li key={index}>
+                          {/* &sim; */}
+                          **
+                          <br />
+                          {item.plat}
+                        </li>
+                      ))}
+                  </ul>
+                </div>
+                {/* <details>
                   <summary>{item.title}</summary>
                   <ul>
                     {item.plats &&
@@ -59,7 +73,7 @@ const Aperitifs = () => (
                         </li>
                       ))}
                   </ul>
-                </details>
+                </details> */}
               </article>
             ))}
         </div>

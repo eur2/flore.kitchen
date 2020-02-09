@@ -54,7 +54,7 @@ module.exports = {
         short_name: 'Flore',
         start_url: '/',
         display: 'standalone',
-        icon: `static/logo.png`,
+        icon: `static/logo-c.png`,
       },
     },
     {
@@ -63,7 +63,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    'gatsby-plugin-netlify',
+    // 'gatsby-plugin-netlify',
     'gatsby-plugin-preact',
   ],
 };
