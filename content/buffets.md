@@ -5,7 +5,8 @@ subtitle: >-
   Des plats créatifs, gourmands et conviviaux servis en buffet pour toutes vos
   occasions festives.
 menu:
-  - image: /assets/unnamed-1.jpg
+  - title: Menu couleurs d'hiver
+    image: /assets/unnamed-1.jpg
     text: >-
       * Mijoté aux deux lentilles (lentilles vertes et lentilles corail),
       potimarron rôti épices douces, lait de coco, graines de moutarde noire et
@@ -21,8 +22,8 @@ menu:
       * Condiment coco-coriandre-piment
 
       * Fondant à la courge et aux amandes, caramel au café
-    title: Menu couleurs d'hiver
-  - image: /assets/unnamed.jpg
+  - title: Menu d'arrivée du printemps
+    image: /assets/unnamed.jpg
     text: >-
       * Polenta fondante aux herbes de Provence et aux olives de Kalamata Sauce
       tomates relevée au pastis et à l’orange
@@ -36,6 +37,5 @@ menu:
       * Betteraves rôties au vinaigre balsamique et à la menthe
 
       * Fruits rouges, mousse de fromage blanc à la fleur d'oranger, caramel
-    title: Menu d'arrivée du printemps
 ---
 

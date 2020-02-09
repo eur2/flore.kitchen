@@ -47,11 +47,15 @@ collections:
               widget: 'list',
               fields:
                 [
-                  { label: 'Image', name: 'image', widget: 'image', required: false },
-                  { label: 'Titre', name: 'title', widget: 'string', required: false },
-                  { label: 'Texte', name: 'text', widget: 'markdown', required: false }
+                  { label: 'Titre', name: 'title', widget: 'string' },
+                  { label: 'Image', name: 'image', widget: 'image' },
+                  { label: 'Plats', name: 'plats', widget: 'list', fields:
+                    [
+                      { label: 'Plat', name: 'plat', widget: 'string' }
+                    ] 
+                  }
                 ]
-            }
+            }            
       - file: 'content/buffets.md'
         label: 'Buffets'
         name: 'buffets'
@@ -69,9 +73,13 @@ collections:
               widget: 'list',
               fields:
                 [
-                  { label: 'Image', name: 'image', widget: 'image', required: false },
-                  { label: 'Titre', name: 'title', widget: 'string', required: false },
-                  { label: 'Texte', name: 'text', widget: 'markdown', required: false }
+                  { label: 'Titre', name: 'title', widget: 'string' },
+                  { label: 'Image', name: 'image', widget: 'image' },
+                  { label: 'Plats', name: 'plats', widget: 'list', fields:
+                    [
+                      { label: 'Plat', name: 'plat', widget: 'string' }
+                    ] 
+                  }
                 ]
             }            
       - file: 'content/biographie.md'

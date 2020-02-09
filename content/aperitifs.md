@@ -5,7 +5,8 @@ subtitle: >-
   De petites pièces originales à déguster debout pour un apéritif, un cocktail
   déjeunatoire ou dinatoire.
 menu:
-  - image: /assets/unnamed-2.jpg
+  - title: Menu-titre
+    image: /assets/unnamed-2.jpg
     text: >-
       Gaspacho de betteraves à l’orange, crème montée à l’aneth (photo)  
 
@@ -24,8 +25,8 @@ menu:
 
 
       Crackers de pois chiches, blettes et légumes aux épices douces, coriandre
-    title: Menu-titre
-  - image: /assets/unnamed-3.jpg
+  - title: Menu-titre
+    image: /assets/unnamed-3.jpg
     text: >-
       * Gaspacho de betteraves à l’orange, crème montée à l’aneth (photo)  
 
@@ -36,6 +37,5 @@ menu:
 
       * Crackers de pois chiches, blettes et légumes aux épices douces,
       coriandre
-    title: Menu-titre
 ---
 
