@@ -19,7 +19,7 @@ article:
       « Première expérience de chef à domicile très concluante ! La chef était
       très sympathique et efficace, les plats délicieux et joliment présentés. »
       Julia B.
-image: /assets/IMG.jpg
+image: /assets/choco.jpg
 logo:
   - image: /assets/ref-1.jpg
   - image: /assets/ref-1.png
