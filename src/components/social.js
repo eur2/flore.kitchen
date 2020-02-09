@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Social = ({ facebook, instagram }) => (
-  <aside className="fixed t0 l0 r0 p flex jc-sb bgwhite">
+  <aside className="fixed t0 l0 r0 p pb0 flex jc-sb bgwhite">
     <div className="">
       <a href={facebook} target="_blank" rel="noopener noreferrer">
         <svg

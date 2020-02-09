@@ -32,8 +32,8 @@ html {
 body {
   /* font-family: 're', Arial, Helvetica, sans-serif; */
   font-family: 'jun', serif;
-  font-size: 32px;
-  line-height: 1.15;
+  font-size: 28px;
+  line-height: 1.1;
   word-spacing: -0.05em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -126,6 +126,7 @@ nav a {
   padding-left: 0.25em;
   padding-right: 0.25em;
 }
+
 .content {
   display: flex;
   justify-content: space-between;
@@ -248,11 +249,16 @@ header {
 .p2 {
   padding-left: 1rem;
 }
-.p {
+.p,
+.content article,
+.content p {
   padding: 0.25em;
 }
 .p1 {
   padding: 1em;
+}
+.pb0 {
+  padding-bottom: 0 !important;
 }
 .none {
   display: none;
@@ -292,7 +298,12 @@ header {
 } */
 
 @media only screen and (min-width: 600px) {
-  .p {
+  body {
+    font-size: 32px;
+  }
+  .p,
+  .content article,
+  .content p {
     padding: 0.5em;
   }
   .h50 {

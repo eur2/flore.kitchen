@@ -14,17 +14,17 @@ const Index = () => {
   // const { edges: posts } = data.allMarkdownRemark;
   return (
     <Layout>
-      <Instagram
-        userId={INSTAGRAM_ID}
-        thumbnailWidth={THUMBNAIL_WIDTH}
-        photoCount={PHOTO_COUNT}
-      />
       <section id="prestations">
         <Aperitifs />
         <Buffets />
       </section>
       <Biographie />
       <References />
+      <Instagram
+        userId={INSTAGRAM_ID}
+        thumbnailWidth={THUMBNAIL_WIDTH}
+        photoCount={PHOTO_COUNT}
+      />
     </Layout>
   );
 };
