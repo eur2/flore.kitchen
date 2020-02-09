@@ -53,7 +53,8 @@ const Buffets = () => (
                     {item.plats &&
                       item.plats.map((item, index) => (
                         <li key={index}>
-                          &sim;
+                          {/* &sim; */}
+                          **
                           <br />
                           {item.plat}
                         </li>

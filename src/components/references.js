@@ -47,7 +47,7 @@ const References = () => (
           {data.markdownRemark.frontmatter.article &&
             data.markdownRemark.frontmatter.article.map((item, index) =>
               item.text ? (
-                <p key={index} className="center italic">
+                <p key={index} className="flex33 center italic">
                   {item.text}
                 </p>
               ) : null

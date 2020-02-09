@@ -4,9 +4,9 @@ import Img from 'gatsby-image';
 const Header = ({ title, description, image, tel, email, street, city }) => (
   <header id="contact" className="flex w100 wrap mh100 ai-center jc-center">
     <div className="w100">
-      <h1>
+      {/* <h1>
         <a href="">{title}</a>
-      </h1>
+      </h1> */}
       <h2>{description}</h2>
       <h2>
         <a href={`tel:${tel}`}>{tel}</a>
@@ -14,7 +14,7 @@ const Header = ({ title, description, image, tel, email, street, city }) => (
     </div>
     <div className="w100">
       {image && (
-        <a href="#prestations">
+        <a href="#instagram">
           <Img
             fluid={image}
             // style={{ maxwidth: '180px' }}

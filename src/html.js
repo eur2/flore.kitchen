@@ -7,7 +7,7 @@ export default class HTML extends React.Component {
         <head>
           <link
             rel="preload"
-            href="/static/extra-539f64fe3fb036f388da22daac6eefb7.woff2"
+            href="/static/NimbusRomNo9L-Regu-7e5776306701e86fcb0ccf9a3666e01b.woff2"
             as="font"
             crossOrigin="anonymous"
           />
