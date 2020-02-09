@@ -21,7 +21,6 @@ article:
       Julia B.
 image: /assets/IMG.jpg
 logo:
-  - image: /assets/ref-1.gif
   - image: /assets/ref-1.jpg
   - image: /assets/ref-1.png
   - image: /assets/ref-2.jpg
@@ -30,7 +29,6 @@ logo:
   - image: /assets/ref-4.png
   - image: /assets/ref-5.png
   - image: /assets/ref-6.png
-  - image: /assets/ref.gif
   - image: /assets/ref.jpg
   - image: /assets/ref.png
 ---

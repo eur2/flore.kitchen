@@ -31,17 +31,18 @@ const Biographie = () => (
       <section id={data.markdownRemark.frontmatter.templateKey}>
         <header>
           <h3>{data.markdownRemark.frontmatter.title}</h3>
-          <h4>{data.markdownRemark.frontmatter.subtitle}</h4>
-        </header>
-        <div className="content">
+          <h4 className="mbl1">{data.markdownRemark.frontmatter.subtitle}</h4>
           {data.markdownRemark.frontmatter.article &&
-            data.markdownRemark.frontmatter.article.map(item =>
-              item.text ? <p>{item.text}</p> : null
+            data.markdownRemark.frontmatter.article.map((item, index) =>
+              item.text ? (
+                <h4 key={index} className="mbl1">
+                  {item.text}
+                </h4>
+              ) : null
             )}
-          {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
-        </div>
+        </header>
         {data.markdownRemark.frontmatter.image.childImageSharp.fluid && (
-          <div className="mw">
+          <div className="">
             <Img
               fluid={
                 data.markdownRemark.frontmatter.image.childImageSharp.fluid

@@ -15,6 +15,16 @@ const References = () => (
             article {
               text
             }
+            logo {
+              image {
+                id
+                childImageSharp {
+                  fluid(maxWidth: 100, quality: 80) {
+                    ...GatsbyImageSharpFluid_noBase64
+                  }
+                }
+              }
+            }
             image {
               id
               childImageSharp {
@@ -35,10 +45,27 @@ const References = () => (
         </header>
         <div className="content">
           {data.markdownRemark.frontmatter.article &&
-            data.markdownRemark.frontmatter.article.map(item =>
-              item.text ? <p>{item.text}</p> : null
+            data.markdownRemark.frontmatter.article.map((item, index) =>
+              item.text ? (
+                <p key={index} className="center italic">
+                  {item.text}
+                </p>
+              ) : null
             )}
-          {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
+        </div>
+        <div className="content flexx wrapp mh255">
+          {data.markdownRemark.frontmatter.logo &&
+            data.markdownRemark.frontmatter.logo.map((item, index) => (
+              <div className="logo" key={index}>
+                {item.image.childImageSharp.fluid && (
+                  <Img
+                    fluid={item.image.childImageSharp.fluid}
+                    style={{ margin: 'auto' }}
+                    alt="client"
+                  />
+                )}
+              </div>
+            ))}
         </div>
         {/* {data.markdownRemark.frontmatter.image.childImageSharp.fluid && (
           <Img

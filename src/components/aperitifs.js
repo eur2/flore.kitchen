@@ -13,6 +13,7 @@ const Aperitifs = () => (
             title
             subtitle
             menu {
+              title
               image {
                 id
                 childImageSharp {
@@ -21,8 +22,9 @@ const Aperitifs = () => (
                   }
                 }
               }
-              text
-              title
+              plats {
+                plat
+              }
             }
           }
         }
@@ -36,8 +38,8 @@ const Aperitifs = () => (
         </header>
         <div className="content">
           {data.markdownRemark.frontmatter.menu &&
-            data.markdownRemark.frontmatter.menu.map(item => (
-              <article key={item.image.id}>
+            data.markdownRemark.frontmatter.menu.map((item, index) => (
+              <article key={index}>
                 {item.image.childImageSharp.fluid && (
                   <Img
                     fluid={item.image.childImageSharp.fluid}
@@ -45,8 +47,19 @@ const Aperitifs = () => (
                     alt="flore"
                   />
                 )}
-                <h4>{item.title}</h4>
-                <div dangerouslySetInnerHTML={{ __html: item.text }} />
+                <details>
+                  <summary>{item.title}</summary>
+                  <ul>
+                    {item.plats &&
+                      item.plats.map((item, index) => (
+                        <li key={index}>
+                          &sim;
+                          <br />
+                          {item.plat}
+                        </li>
+                      ))}
+                  </ul>
+                </details>
               </article>
             ))}
         </div>

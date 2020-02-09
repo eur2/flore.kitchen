@@ -14,10 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 're', Arial, Helvetica, sans-serif;
+  /* font-family: 're', Arial, Helvetica, sans-serif; */
   font-family: serif;
-  font-size: 24px;
-  line-height: 1.2;
+  font-size: 32px;
+  line-height: 1.15;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -44,7 +44,6 @@ img {
   max-width: 100%;
   object-fit: contain !important;
 }
-p,
 h1,
 h2,
 h3,
@@ -69,6 +68,21 @@ h3,
 h4 {
   text-align: center;
 }
+p,
+ul {
+  padding: 0;
+  list-style: none;
+  font-size: 0.5em;
+  text-align: center;
+}
+summary {
+  outline: 0;
+  cursor: pointer;
+}
+/* p,
+ul {
+  font-size: 0.5em;
+} */
 #___gatsby {
   max-width: 1024px;
   margin: auto;
@@ -77,10 +91,7 @@ footer div {
   flex: 1;
   text-align: center;
 }
-/* ul {
-  padding: 0;
-  list-style: none;
-} */
+
 /* #gatsby-focus-wrapper {
   margin: 3em;
   max-width: 720px;
@@ -113,21 +124,25 @@ nav a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 50vh;
+  min-height: 25vh;
 }
 .content div,
 .content article,
 .content p {
-  padding: 1em;
+  padding: 0.5em;
 }
-.content p {
-  flex: 1;
+.content article {
+  flex: 100%;
 }
 section {
   min-height: 100vh;
 }
 .insta {
   flex: 50%;
+  padding: 0.5em;
+}
+.logo {
+  flex: 15%;
   padding: 0.5em;
 }
 .fixed {
@@ -151,6 +166,9 @@ section {
 }
 .b0 {
   bottom: 0;
+}
+.mh25 {
+  min-height: 25vh;
 }
 .mh100 {
   min-height: 100vh;
@@ -192,6 +210,9 @@ header {
 } */
 .center {
   text-align: center;
+}
+.italic {
+  font-style: italic;
 }
 .mbl1 {
   margin-block-end: 1em;
@@ -260,7 +281,7 @@ header {
   text-indent: 0;
 } */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
   .h50 {
     height: 33vh;
   }
@@ -270,13 +291,15 @@ header {
   .insta {
     flex: 25%;
   }
+  .content article {
+    flex: 50%;
+  }
+  .logo {
+    flex: 10%;
+  }
 }
 @media only screen and (min-width: 1024px) {
   body {
     font-size: 32px;
-  }
-  p,
-  ul {
-    font-size: 0.5em;
   }
 }

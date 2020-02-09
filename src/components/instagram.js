@@ -40,7 +40,7 @@ export default class extends Component {
       <section id="instagram" className="flex row wrap">
         {this.state.photos &&
           this.state.photos.map(({ src, url }) => (
-            <div className="insta">
+            <div key={src} className="insta">
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <img loading="lazy" src={src} />
               </a>
