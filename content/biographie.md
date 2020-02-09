@@ -17,6 +17,6 @@ article:
   - text: >-
       De plus, sa flexibilité et ses grandes qualités organisationnelles seront
       les garanties d'un événement réussi.
-image: /assets/IMG.jpg
+image: /assets/_MG_0158.JPG
 ---
 
