@@ -5,7 +5,7 @@ subtitle: >-
   De petites pièces originales à déguster debout pour un apéritif, un cocktail
   déjeunatoire ou dinatoire.
 menu:
-  - image: /assets/unnamed-2.jpg
+  - image: /assets/IMG_9784 (1).JPG
     plats:
       - plat: 'Gaspacho de betteraves à l’orange, crème montée à l’aneth (photo)'
       - plat: 'Pain grillé, tartare de tomate, fraise et pesto de mélisse'
@@ -16,7 +16,7 @@ menu:
           Crackers de pois chiches, blettes et légumes aux épices douces,
           coriandre
     title: Menu-titre
-  - image: /assets/unnamed-3.jpg
+  - image: /assets/IMG_9754.JPG
     plats:
       - plat: 'Tartelettes aux lentilles, persil, crème crue et grenade (photo)'
       - plat: >-
