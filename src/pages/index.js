@@ -8,23 +8,23 @@ import References from '../components/references';
 import Instagram from '../components/instagram';
 const INSTAGRAM_ID = '4536541103';
 const THUMBNAIL_WIDTH = 640;
-const PHOTO_COUNT = 12;
+const PHOTO_COUNT = 6;
 const Index = () => {
   // const { markdownRemark: post } = data;
   // const { edges: posts } = data.allMarkdownRemark;
   return (
     <Layout>
       <section id="prestations">
+        <Instagram
+          userId={INSTAGRAM_ID}
+          thumbnailWidth={THUMBNAIL_WIDTH}
+          photoCount={PHOTO_COUNT}
+        />
         <Aperitifs />
         <Buffets />
       </section>
       <Biographie />
       <References />
-      <Instagram
-        userId={INSTAGRAM_ID}
-        thumbnailWidth={THUMBNAIL_WIDTH}
-        photoCount={PHOTO_COUNT}
-      />
     </Layout>
   );
 };
