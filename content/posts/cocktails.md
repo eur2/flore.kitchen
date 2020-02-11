@@ -27,7 +27,7 @@ menu:
       - plat: 'Moelleux à la mandarine et à la fève tonka, fleur d’oranger'
     title: Menu sucré
 ---
-De petites pièces originales à déguster debout pour un apéritif, un cocktail déjeunatoire ou dinatoire.
+#### De petites pièces originales à déguster debout pour un apéritif, un cocktail déjeunatoire ou dinatoire.
 
 Flore et son équipe s’occupent également du service et des boissons si vous le souhaitez.
 
