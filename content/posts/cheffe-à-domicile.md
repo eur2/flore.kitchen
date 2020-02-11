@@ -1,6 +1,7 @@
 ---
 templateKey: post
 title: Cheffe à domicile
+slug: 1-cheffe-a-domicile
 menu:
   - image: /assets/IMG.jpg
     plats:
