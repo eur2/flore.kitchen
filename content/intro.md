@@ -5,6 +5,8 @@ subtitle: >-
   Des menus sur mesure, selon vos envies, vos besoins et votre budget:
   déjeuners, dîners, goûters, buffets, cocktails, repas à domicile, ...
 ---
+#### Des menus sur mesure, selon vos envies, vos besoins et votre budget: déjeuners, dîners, goûters, buffets, cocktails, repas à domicile, ...
+
 #### Flore vous propose une cuisine entièrement faite maison, à partir d’ingrédients frais, de saison, issus de l'agriculture biologique ou raisonnée.
 
 * La passion de la cuisine, des herbes, des épices, des couleurs, des mélanges
