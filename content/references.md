@@ -1,9 +1,7 @@
 ---
 templateKey: references
 title: Références
-subtitle: >-
-  De plus, sa flexibilité et ses grandes qualités organisationnelles seront les
-  garanties d'un événement réussi.
+subtitle: xxx
 article:
   - text: >-
       « Première expérience de chef à domicile très concluante ! La chef était
@@ -30,6 +28,6 @@ logos:
   - image: /assets/ref-5.png
   - image: /assets/ref-6.png
   - image: /assets/ref.jpg
-  - image: /assets/ref.png
+  - image: /assets/philharmonie.jpg
 ---
 
