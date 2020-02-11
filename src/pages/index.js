@@ -3,8 +3,8 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import Intro from '../components/intro';
-import Buffets from '../components/buffets';
-import Aperitifs from '../components/aperitifs';
+// import Buffets from '../components/buffets';
+// import Aperitifs from '../components/aperitifs';
 import Biographie from '../components/biographie';
 import References from '../components/references';
 import Instagram from '../components/instagram';
@@ -30,7 +30,9 @@ const Index = ({ data }) => {
           {posts.map(({ node: post }) => {
             return (
               <h4 key={post.id}>
-                <a href={`#${post.fields.slug}`}>{post.frontmatter.title}</a>
+                <a href={`#${post.frontmatter.slug}`}>
+                  {post.frontmatter.title}
+                </a>
               </h4>
             );
           })}
@@ -38,7 +40,7 @@ const Index = ({ data }) => {
 
         {posts.map(({ node: post }) => {
           return (
-            <article key={post.id}>
+            <article key={post.id} id={post.frontmatter.slug}>
               <header>
                 <h3>{post.frontmatter.title}</h3>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -46,7 +48,7 @@ const Index = ({ data }) => {
               <div className="content">
                 {post.frontmatter.menu &&
                   post.frontmatter.menu.map((item, index) => (
-                    <article key={index}>
+                    <div key={index}>
                       {item.image.childImageSharp.fluid && (
                         <Img
                           fluid={item.image.childImageSharp.fluid}
@@ -67,14 +69,12 @@ const Index = ({ data }) => {
                             ))}
                         </ul>
                       </div>
-                    </article>
+                    </div>
                   ))}
               </div>
             </article>
           );
         })}
-        {/* <Aperitifs />
-        <Buffets /> */}
       </section>
       <Biographie />
       <References />
@@ -88,7 +88,7 @@ export const index = graphql`
   query posts {
     allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "post" } } }
-      sort: { order: DESC, fields: [frontmatter___title] }
+      sort: { order: ASC, fields: [frontmatter___slug] }
     ) {
       edges {
         node {
@@ -100,6 +100,7 @@ export const index = graphql`
           frontmatter {
             templateKey
             title
+            slug
             menu {
               title
               image {

@@ -12,9 +12,6 @@ const References = () => (
             templateKey
             title
             subtitle
-            article {
-              text
-            }
             logos {
               image {
                 id
@@ -43,16 +40,10 @@ const References = () => (
           <h3>{data.markdownRemark.frontmatter.title}</h3>
           <h4>{data.markdownRemark.frontmatter.subtitle}</h4>
         </header>
-        <div className="content">
-          {data.markdownRemark.frontmatter.article &&
-            data.markdownRemark.frontmatter.article.map((item, index) =>
-              item.text ? (
-                <p key={index} className="flex33 center italic">
-                  {item.text}
-                </p>
-              ) : null
-            )}
-        </div>
+        <div
+          className="content"
+          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+        />
         <div className="content flexx wrapp mh255">
           {data.markdownRemark.frontmatter.logos &&
             data.markdownRemark.frontmatter.logos.map((item, index) => (

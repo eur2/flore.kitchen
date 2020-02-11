@@ -12,9 +12,6 @@ const Biographie = () => (
             templateKey
             title
             subtitle
-            article {
-              text
-            }
             image {
               id
               childImageSharp {
@@ -32,14 +29,7 @@ const Biographie = () => (
         <header>
           <h3>{data.markdownRemark.frontmatter.title}</h3>
           <h4 className="mbl1">{data.markdownRemark.frontmatter.subtitle}</h4>
-          {data.markdownRemark.frontmatter.article &&
-            data.markdownRemark.frontmatter.article.map((item, index) =>
-              item.text ? (
-                <h4 key={index} className="mbl1">
-                  {item.text}
-                </h4>
-              ) : null
-            )}
+          <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         </header>
         {data.markdownRemark.frontmatter.image.childImageSharp.fluid && (
           <div className="">
