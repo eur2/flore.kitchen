@@ -3,7 +3,7 @@ templateKey: post
 title: Cheffe à domicile
 slug: 1-cheffe-a-domicile
 menu:
-  - image: /assets/IMG.jpg
+  - image: /assets/IMG_9825.JPG
     plats:
       - plat: 'Velouté glacé de concombre au piment doux, aneth et sumac'
       - plat: >-
