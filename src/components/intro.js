@@ -11,7 +11,6 @@ const Intro = ({ children }) => (
           frontmatter {
             templateKey
             title
-            subtitle
           }
         }
       }

@@ -42,60 +42,7 @@ collections:
               default: 'intro'
             }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Sous-titre', name: 'subtitle', widget: 'text', required: false }
-          - { label: 'Texte', name: 'body', widget: 'markdown', required: false }
-      - file: 'content/aperitifs.md'
-        label: 'Apéritifs'
-        name: 'aperitifs'
-        fields:
-          - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'aperitifs'
-            }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Sous-titre', name: 'subtitle', widget: 'text', required: false }
-          - { label: 'Menu',
-              name: 'menu',
-              widget: 'list',
-              fields:
-                [
-                  { label: 'Titre', name: 'title', widget: 'string' },
-                  { label: 'Image', name: 'image', widget: 'image' },
-                  { label: 'Plats', name: 'plats', widget: 'list', fields:
-                    [
-                      { label: 'Plat', name: 'plat', widget: 'string' }
-                    ] 
-                  }
-                ]
-            }            
-      - file: 'content/buffets.md'
-        label: 'Buffets'
-        name: 'buffets'
-        fields:
-          - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'buffets'
-            }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Sous-titre', name: 'subtitle', widget: 'text', required: false }
-          - { label: 'Menu',
-              name: 'menu',
-              widget: 'list',
-              fields:
-                [
-                  { label: 'Titre', name: 'title', widget: 'string' },
-                  { label: 'Image', name: 'image', widget: 'image' },
-                  { label: 'Plats', name: 'plats', widget: 'list', fields:
-                    [
-                      { label: 'Plat', name: 'plat', widget: 'string' }
-                    ] 
-                  }
-                ]
-            }            
+          - { label: 'Texte', name: 'body', widget: 'markdown', required: false }         
       - file: 'content/biographie.md'
         label: 'Bio'
         name: 'biographie'
@@ -107,7 +54,6 @@ collections:
               default: 'biographie'
             }
           - { label: 'Titre', name: 'title', widget: 'string' }
-          - { label: 'Sous-titre', name: 'subtitle', widget: 'text' }
           - { label: 'Texte', name: 'body', widget: 'markdown', required: false }
           - { label: 'Image', name: 'image', widget: 'image', required: false }
       - file: 'content/references.md'

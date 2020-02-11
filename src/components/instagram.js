@@ -39,10 +39,11 @@ export default class extends Component {
     return (
       <section id="instagram" className="flex row wrap">
         {this.state.photos &&
-          this.state.photos.map(({ src, url }) => (
+          this.state.photos.map(({ src, url, caption }) => (
             <div key={src} className="insta">
               <a href={url} target="_blank" rel="noopener noreferrer">
-                <img loading="lazy" src={src} />
+                <span className="none">{caption}</span>
+                <img loading="lazy" src={src} alt={caption} />
               </a>
             </div>
           ))}

@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
               publicURL
               id
               childImageSharp {
-                fluid(maxWidth: 180, quality: 80) {
+                fluid(maxWidth: 1600, quality: 80) {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }
@@ -50,13 +50,13 @@ const Layout = ({ children }) => (
       <>
         <Head
           title={data.markdownRemark.frontmatter.title}
-          subtitle="aa"
+          subtitle={data.markdownRemark.frontmatter.subtitle}
           description={data.markdownRemark.frontmatter.description}
           image={data.markdownRemark.frontmatter.logo.publicURL}
         />
         <Header
           title={data.markdownRemark.frontmatter.title}
-          description={data.markdownRemark.frontmatter.description}
+          subtitle={data.markdownRemark.frontmatter.subtitle}
           image={data.markdownRemark.frontmatter.image.childImageSharp.fluid}
           logo={data.markdownRemark.frontmatter.logo.childImageSharp.fluid}
           tel={data.markdownRemark.frontmatter.tel}

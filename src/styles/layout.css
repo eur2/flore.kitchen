@@ -44,6 +44,18 @@ img {
   height: auto;
   object-fit: contain !important;
 }
+.front{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  right: 0;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+-o-object-fit: cover;
+object-fit: cover;
+}
 h1,
 h2,
 h3,
@@ -58,6 +70,7 @@ h3 {
 }
 h3,h4,p  {
   margin-block-end: 1em;
+  margin-block-start: 1em;
 }
 /* h1,h2{
   font-size: 2em;
@@ -151,10 +164,13 @@ section {
 .logos{
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .logo {
-  flex: 100px;
+  flex: 100%;
   padding: 0.25em;
+  max-width: 80px;
 }
 .fixed {
   position: fixed;
@@ -202,11 +218,14 @@ section {
   width: 100%;
 }
 .mw,
-header,
+.header,section header,article header,
 footer {
-  max-width: 600px;
-  padding: 1.5em 0.5em 2em 0.5em;
+  max-width: 720px;
+  padding: 2em 0.5em 2em 0.5em;
   margin: auto;
+}
+.header{
+  padding-bottom: 0;
 }
 .bgwhite {
   background-color: white;
@@ -285,19 +304,16 @@ footer {
 .ai-center {
   align-items: center;
 }
-/* .indent3 {
-  text-indent: 3em;
+.hyphens{
+  hyphens: auto;
 }
-.indent p {
-  text-indent: 4em;
-}
-.indent p:first-child {
-  text-indent: 0;
-} */
 
 @media only screen and (min-width: 600px) {
   body {
     font-size: 32px;
+  }
+  .hyphens{
+    hyphens: none;
   }
   .p,
   .content article,
@@ -316,10 +332,6 @@ footer {
   }
   .flex33 {
     flex: 33%;
-  }
-   .mw,
-  header {
-    padding: 2em 0.5em 2em 0.5em;
   }
 }
 @media only screen and (min-width: 1024px) {

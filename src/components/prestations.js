@@ -19,7 +19,7 @@ const Prestations = ({ posts, children }) => (
       return (
         <article key={post.id} id={post.frontmatter.slug}>
           <header>
-            <h3>{post.frontmatter.title}</h3>
+            <h3 className="hyphens">{post.frontmatter.title}</h3>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </header>
           <div className="content">

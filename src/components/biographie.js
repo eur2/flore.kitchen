@@ -11,7 +11,6 @@ const Biographie = () => (
           frontmatter {
             templateKey
             title
-            subtitle
             image {
               id
               childImageSharp {

@@ -3,7 +3,7 @@ import Img from 'gatsby-image';
 
 const Header = ({
   title,
-  description,
+  subtitle,
   image,
   logo,
   tel,
@@ -11,7 +11,7 @@ const Header = ({
   instagram,
   email,
 }) => (
-  <header id="contact" className="flex w100 wrap mh100 ai-center jc-center">
+  <header id="contact" className="w100 jc-center">
     <div className="fixed t0 l0 r0 p pb0 flex jc-sb bgwhite">
       <div>
         <a href={facebook} target="_blank" rel="noopener noreferrer">
@@ -38,10 +38,19 @@ const Header = ({
         </a>
       </div>
     </div>
-    <div className="w100">
+    <div className="header w100">
       {/* <h1>
         <a href="">{title}</a>
       </h1> */}
+
+      <h2>{subtitle}</h2>
+
+      <h2>
+        <a href={`tel:${tel}`}>{tel}</a>
+      </h2>
+      <h2>
+        <a href={`mailto:${email}`}>{email}</a>
+      </h2>
       {logo && (
         <a href="#instagram">
           <Img
@@ -52,46 +61,8 @@ const Header = ({
           />
         </a>
       )}
-      <h2>{description}</h2>
-      <h2>
-        <a href={`tel:${tel}`}>{tel}</a>
-      </h2>
-      <h2>
-        <a href={`mailto:${email}`}>{email}</a>
-      </h2>
     </div>
-    <div className="w100">
-      {/* {logo && (
-        <a href="#instagram">
-          <Img
-            fluid={logo}
-            // style={{ maxwidth: '180px' }}
-            alt={title}
-            className="h50 m-auto"
-          />
-        </a>
-      )} */}
-      {image && (
-        <a href="#instagram">
-          <Img
-            fluid={image}
-            // style={{ maxwidth: '180px' }}
-            alt={title}
-            className="h50 m-auto"
-          />
-        </a>
-      )}
-    </div>
-    <div className="w100"></div>
+    {image && <Img fluid={image} style={{ maxwidth: '100%' }} alt={title} />}
   </header>
 );
 export default Header;
-
-{
-  /* <nav className="nav">
-      <a href="#contact">Contact</a>
-      <a href="#prestations">Prestations</a>
-      <a href="#biographie">Biographie</a>
-      <a href="#references">Références</a>
-    </nav> */
-}

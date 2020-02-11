@@ -22,13 +22,11 @@ menu:
   - image: /assets/choco.jpg
     plats:
       - plat: Croquant de fruits secs au caramel et chocolat (photo)
-      - plat: 'Rhubarbe rôtie, crème coco-cardamome, biscuit à l''avoine'
+      - plat: 'Rhubarbe rôtie, crème coco-cardamome, biscuit à l’avoine'
       - plat: 'Mousse au pamplemousse, tuile croustillante, shiso'
       - plat: 'Moelleux à la mandarine et à la fève tonka, fleur d’oranger'
     title: Menu sucré
 ---
 #### De petites pièces originales à déguster debout pour un apéritif, un cocktail déjeunatoire ou dinatoire.
 
-Flore et son équipe s’occupent également du service et des boissons si vous le souhaitez.
-
-Devis sur demande
+Flore et son équipe s’occupent également du service et des boissons si vous le souhaitez. Devis sur demande

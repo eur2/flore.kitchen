@@ -18,7 +18,7 @@ menu:
       - plat: >-
           Fraises marinées à la fleur d’oranger, shortbread, crème pâtissière au
           basilic, poudre de prune séchée
-    title: Menu d'été
+    title: Menu d’été
   - image: /assets/IMG_9754.JPG
     plats:
       - plat: 'Radis multicolores marinés, tartare d’algues, sarrasin grillé'
@@ -32,7 +32,7 @@ menu:
       - plat: >-
           Mousse de pamplemousse, suprêmes d’orange et mandarine, tuile au
           sésame noir, réduction orange-safran
-    title: Menu d'hiver
+    title: Menu d’hiver
 ---
 #### Envie de surprendre vos invités ? Pas le temps de cuisiner ? Pas envie d’aller au restaurant ? Flore prend en charge votre repas de A à Z, des propositions de menus au rangement de la cuisine.
 
