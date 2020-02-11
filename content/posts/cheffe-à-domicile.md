@@ -34,6 +34,6 @@ menu:
           sésame noir, réduction orange-safran
     title: Menu d'hiver
 ---
-Envie de surprendre vos invités ? Pas le temps de cuisiner ? Pas envie d’aller au restaurant ? Flore prend en charge votre repas de A à Z, des propositions de menus au rangement de la cuisine.
+#### Envie de surprendre vos invités ? Pas le temps de cuisiner ? Pas envie d’aller au restaurant ? Flore prend en charge votre repas de A à Z, des propositions de menus au rangement de la cuisine.
 
 Tarifs sur mesure, devis sur demande
