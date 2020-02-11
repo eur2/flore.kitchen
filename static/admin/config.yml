@@ -6,38 +6,6 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:    
-  - name: 'posts'
-    label: 'Prestation'
-    folder: 'posts'
-    editor:
-      preview: false    
-    create: true
-    slug: '{{slug}}'
-    fields:
-      - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'post',
-        }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'hidden' }
-      - { label: 'Texte', name: 'body', widget: 'markdown' }
-      - { label: 'Menu',
-            name: 'menu',
-            widget: 'list',
-            fields:
-              [
-                { label: 'Titre', name: 'title', widget: 'string' },
-                { label: 'Image', name: 'image', widget: 'image' },
-                { label: 'Plats', name: 'plats', widget: 'list', fields:
-                  [
-                    { label: 'Plat', name: 'plat', widget: 'string' }
-                  ] 
-                }
-              ]
-            }     
-
   - name: 'section'
     label: 'Section'
     editor:
@@ -163,3 +131,36 @@ collections:
                 ]
             }   
           - { label: 'Image', name: 'image', widget: 'image', required: false } 
+          
+- name: 'posts'
+    label: 'Prestation'
+    folder: 'content/posts'
+    editor:
+      preview: false    
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'post',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'hidden' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Texte', name: 'body', widget: 'markdown' }
+      - { label: 'Menu',
+            name: 'menu',
+            widget: 'list',
+            fields:
+              [
+                { label: 'Titre', name: 'title', widget: 'string' },
+                { label: 'Image', name: 'image', widget: 'image' },
+                { label: 'Plats', name: 'plats', widget: 'list', fields:
+                  [
+                    { label: 'Plat', name: 'plat', widget: 'string' }
+                  ] 
+                }
+              ]
+            }           
