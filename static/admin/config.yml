@@ -132,7 +132,7 @@ collections:
             }   
           - { label: 'Image', name: 'image', widget: 'image', required: false } 
           
-- name: 'posts'
+  - name: 'posts'
     label: 'Prestation'
     folder: 'content/posts'
     editor:
