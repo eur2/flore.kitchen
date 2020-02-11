@@ -3,7 +3,7 @@ templateKey: post
 title: Cocktails
 slug: 2-cocktails
 menu:
-  - image: /assets/IMG.jpg
+  - image: /assets/_MG_0158.JPG
     plats:
       - plat: 'Gaspacho de betteraves à l’orange, crème montée à l’aneth (photo)'
       - plat: >-
@@ -19,7 +19,7 @@ menu:
           graines de lin doré
       - plat: 'Magret rosé, crème de potimarron, pomme acidulée'
     title: Menu salé
-  - image: /assets/IMG_9754.JPG
+  - image: /assets/choco.jpg
     plats:
       - plat: Croquant de fruits secs au caramel et chocolat (photo)
       - plat: 'Rhubarbe rôtie, crème coco-cardamome, biscuit à l''avoine'
