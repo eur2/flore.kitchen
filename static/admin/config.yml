@@ -5,7 +5,39 @@ backend:
 media_folder: static/assets
 public_folder: /assets
 
-collections:     
+collections:    
+  - name: 'posts'
+    label: 'Prestation'
+    folder: 'posts'
+    editor:
+      preview: false    
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'post',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'hidden' }
+      - { label: 'Texte', name: 'body', widget: 'markdown' }
+      - { label: 'Menu',
+            name: 'menu',
+            widget: 'list',
+            fields:
+              [
+                { label: 'Titre', name: 'title', widget: 'string' },
+                { label: 'Image', name: 'image', widget: 'image' },
+                { label: 'Plats', name: 'plats', widget: 'list', fields:
+                  [
+                    { label: 'Plat', name: 'plat', widget: 'string' }
+                  ] 
+                }
+              ]
+            }     
+
   - name: 'section'
     label: 'Section'
     editor:
@@ -96,7 +128,7 @@ collections:
                 ]
             }            
       - file: 'content/biographie.md'
-        label: 'Biographie'
+        label: 'Bio'
         name: 'biographie'
         fields:
           - {
@@ -107,14 +139,7 @@ collections:
             }
           - { label: 'Titre', name: 'title', widget: 'string' }
           - { label: 'Sous-titre', name: 'subtitle', widget: 'text' }
-          - { label: 'Article',
-              name: 'article',
-              widget: 'list',
-              fields:
-                [
-                  { label: 'Texte', name: 'text', widget: 'text', required: false }
-                ]
-            }   
+          - { label: 'Texte', name: 'body', widget: 'markdown', required: false }
           - { label: 'Image', name: 'image', widget: 'image', required: false }
       - file: 'content/references.md'
         label: 'Références'
@@ -127,16 +152,8 @@ collections:
               default: 'references'
             }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Sous-titre', name: 'subtitle', widget: 'text' }
-          - { label: 'Article',
-              name: 'article',
-              widget: 'list',
-              fields:
-                [
-                  { label: 'Texte', name: 'text', widget: 'markdown', required: false }
-                ]
-            }   
-          - { label: 'Image', name: 'image', widget: 'image', required: false } 
+          - { label: 'Sous-titre', name: 'subtitle', widget: 'text', required: false }
+          - { label: 'Texte', name: 'body', widget: 'markdown', required: false }
           - { label: 'Client logo',
               name: 'logos',
               widget: 'list',
@@ -144,4 +161,5 @@ collections:
                 [
                   { label: 'Image', name: 'image', widget: 'image' }
                 ]
-            }          
+            }   
+          - { label: 'Image', name: 'image', widget: 'image', required: false } 

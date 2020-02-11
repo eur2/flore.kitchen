@@ -18,7 +18,7 @@
   font-family: 'jun';
   src: url('subset-Junicode.woff') format('woff');
   src: url('subset-Junicode.woff2') format('woff2');
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-display: fallback;
 }

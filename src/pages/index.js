@@ -1,6 +1,7 @@
 import React from 'react';
 // import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import Intro from '../components/intro';
 import Buffets from '../components/buffets';
 import Aperitifs from '../components/aperitifs';
 import Biographie from '../components/biographie';
@@ -14,12 +15,13 @@ const Index = () => {
   // const { edges: posts } = data.allMarkdownRemark;
   return (
     <Layout>
+      <Intro />
+      <Instagram
+        userId={INSTAGRAM_ID}
+        thumbnailWidth={THUMBNAIL_WIDTH}
+        photoCount={PHOTO_COUNT}
+      />
       <section id="prestations">
-        <Instagram
-          userId={INSTAGRAM_ID}
-          thumbnailWidth={THUMBNAIL_WIDTH}
-          photoCount={PHOTO_COUNT}
-        />
         <Aperitifs />
         <Buffets />
       </section>

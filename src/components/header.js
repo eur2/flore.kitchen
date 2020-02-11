@@ -27,7 +27,7 @@ const Header = ({
       </div>
       <div>
         <h1>
-          <a href="">{title}</a>
+          <a href="#contact">{title}</a>
         </h1>
       </div>
       <div>

@@ -1,6 +1,6 @@
 ---
 templateKey: biographie
-title: Biographie
+title: Bio
 subtitle: >-
   Travaillant dans les cuisines en France et à l'étranger depuis plus de dix
   ans, Flore Granboulan a acquis une approche unique de la cuisine, végétarienne
