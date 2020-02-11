@@ -31,7 +31,7 @@ a:hover {
   color: black;
   text-decoration: none;
 }
-p a{
+p a {
   color: rgb(0, 255, 0);
   text-decoration: underline;
 }
@@ -44,7 +44,7 @@ img {
   height: auto;
   object-fit: contain !important;
 }
-.front{
+.front {
   position: absolute;
   top: 0;
   left: 0;
@@ -53,8 +53,8 @@ img {
   /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
--o-object-fit: cover;
-object-fit: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 h1,
 h2,
@@ -68,7 +68,9 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
 }
-h3,h4,p  {
+h3,
+h4,
+p {
   margin-block-end: 1em;
   margin-block-start: 1em;
 }
@@ -96,12 +98,12 @@ summary {
 ul {
   font-size: 0.5em;
 } */
-#___gatsby {
+main {
   max-width: 1024px;
   margin: auto;
 }
 footer {
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 }
 footer div {
   flex: 1;
@@ -132,7 +134,7 @@ nav a {
   align-items: center;
   flex-wrap: wrap;
   min-height: 25vh;
-  padding: .5em;
+  padding: 0.5em;
 }
 /* .content div,
 .content article,
@@ -145,10 +147,11 @@ nav a {
 section {
   min-height: 100vh;
 }
-.flex100{
+.flex100 {
   flex: 100%;
 }
-.flex600, .content p{
+.flex600,
+.content p {
   flex: 600px;
 }
 #instagram {
@@ -161,7 +164,7 @@ section {
 .flex33 {
   flex: 100%;
 }
-.logos{
+.logos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -218,13 +221,15 @@ section {
   width: 100%;
 }
 .mw,
-.header,section header,article header,
+.header,
+section header,
+article header,
 footer {
   max-width: 720px;
   padding: 2em 0.5em 2em 0.5em;
   margin: auto;
 }
-.header{
+.header {
   padding-bottom: 0;
 }
 .bgwhite {
@@ -304,15 +309,15 @@ footer {
 .ai-center {
   align-items: center;
 }
-.hyphens{
-  hyphens: auto;
+.hyphens {
+  hyphens: auto !important ;
 }
 
 @media only screen and (min-width: 600px) {
   body {
     font-size: 32px;
   }
-  .hyphens{
+  .hyphens {
     hyphens: none;
   }
   .p,

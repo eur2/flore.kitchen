@@ -13,7 +13,7 @@ logos:
   - image: /assets/ref-6.png
   - image: /assets/ref.jpg
   - image: /assets/philharmonie.jpg
-image: /assets/unnamed-1.jpg
+image: /assets/IMG_9776.JPG
 ---
 *Première expérience de chef à domicile très concluante ! La chef était très sympathique et efficace, les plats délicieux et joliment présentés.* \*\*Julia B.\*\*
 

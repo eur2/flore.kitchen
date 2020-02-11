@@ -55,7 +55,7 @@ export const index = graphql`
               image {
                 id
                 childImageSharp {
-                  fluid(maxWidth: 800, quality: 80) {
+                  fluid(maxWidth: 600, quality: 80) {
                     ...GatsbyImageSharpFluid_noBase64
                   }
                 }
