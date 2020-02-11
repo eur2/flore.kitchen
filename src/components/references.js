@@ -15,7 +15,7 @@ const References = () => (
             article {
               text
             }
-            logo {
+            logos {
               image {
                 id
                 childImageSharp {
@@ -54,8 +54,8 @@ const References = () => (
             )}
         </div>
         <div className="content flexx wrapp mh255">
-          {data.markdownRemark.frontmatter.logo &&
-            data.markdownRemark.frontmatter.logo.map((item, index) => (
+          {data.markdownRemark.frontmatter.logos &&
+            data.markdownRemark.frontmatter.logos.map((item, index) => (
               <div className="logo" key={index}>
                 {item.image.childImageSharp.fluid && (
                   <Img

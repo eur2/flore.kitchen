@@ -101,7 +101,7 @@ ul {
   max-width: 1024px;
   margin: auto;
 }
-main {
+footer {
   margin-bottom: 3em;
 }
 footer div {
@@ -205,7 +205,8 @@ section {
   width: 100%;
 }
 .mw,
-header {
+header,
+footer {
   max-width: 600px;
   padding: 1.5em 0.5em 2em 0.5em;
   margin: auto;

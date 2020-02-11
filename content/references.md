@@ -20,7 +20,7 @@ article:
       très sympathique et efficace, les plats délicieux et joliment présentés. »
       Julia B.
 image: /assets/choco.jpg
-logo:
+logos:
   - image: /assets/ref-1.jpg
   - image: /assets/ref-1.png
   - image: /assets/ref-2.jpg

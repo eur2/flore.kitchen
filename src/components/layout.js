@@ -5,7 +5,8 @@ import '../styles/layout.css';
 import Head from './head';
 import Header from './header';
 import Nav from './nav';
-import Social from './social';
+// import Social from './social';
+import Footer from './footer';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,12 +27,20 @@ const Layout = ({ children }) => (
                 }
               }
             }
+            logo {
+              publicURL
+              id
+              childImageSharp {
+                fluid(maxWidth: 180, quality: 80) {
+                  ...GatsbyImageSharpFluid_noBase64
+                }
+              }
+            }
             instagram
             facebook
             tel
             email
-            street
-            city
+            address
           }
         }
       }
@@ -41,23 +50,21 @@ const Layout = ({ children }) => (
         <Head
           title={data.markdownRemark.frontmatter.title}
           description={data.markdownRemark.frontmatter.description}
-          image={data.markdownRemark.frontmatter.image.publicURL}
+          image={data.markdownRemark.frontmatter.logo.publicURL}
         />
         <Header
           title={data.markdownRemark.frontmatter.title}
           description={data.markdownRemark.frontmatter.description}
           image={data.markdownRemark.frontmatter.image.childImageSharp.fluid}
+          logo={data.markdownRemark.frontmatter.logo.childImageSharp.fluid}
           tel={data.markdownRemark.frontmatter.tel}
           email={data.markdownRemark.frontmatter.email}
-          street={data.markdownRemark.frontmatter.street}
-          city={data.markdownRemark.frontmatter.city}
-        />
-        <Nav />
-        <Social
           instagram={data.markdownRemark.frontmatter.instagram}
           facebook={data.markdownRemark.frontmatter.facebook}
         />
+        <Nav />
         <main role="main">{children}</main>
+        <Footer address={data.markdownRemark.frontmatter.address} />
       </>
     )}
   />

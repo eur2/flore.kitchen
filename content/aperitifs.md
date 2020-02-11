@@ -5,7 +5,7 @@ subtitle: >-
   De petites pièces originales à déguster debout pour un apéritif, un cocktail
   déjeunatoire ou dinatoire.
 menu:
-  - image: /assets/IMG_9784 (1).JPG
+  - image: /assets/IMG_9784.JPG
     plats:
       - plat: 'Gaspacho de betteraves à l’orange, crème montée à l’aneth (photo)'
       - plat: 'Pain grillé, tartare de tomate, fraise et pesto de mélisse'

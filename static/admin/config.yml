@@ -23,13 +23,26 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'text' }
-          - { label: 'Social Image', name: 'image', widget: 'image', required: false }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Logo', name: 'logo', widget: 'image' }
           - { label: 'Instagram', name: 'instagram', widget: 'string', required: false }
           - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
           - { label: 'Tél', name: 'tel', widget: 'string', required: false }          
           - { label: 'Email', name: 'email', widget: 'string', required: false }
-          - { label: 'Adresse rue', name: 'street', widget: 'string', required: false }         
-          - { label: 'Adresse ville', name: 'city', widget: 'string', required: false }  
+          - { label: 'Adresse', name: 'address', widget: 'string', required: false }         
+      - file: 'content/intro.md'
+        label: 'Intro'
+        name: 'intro'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'intro'
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Sous-titre', name: 'subtitle', widget: 'text', required: false }
+          - { label: 'Texte', name: 'body', widget: 'markdown', required: false }
       - file: 'content/aperitifs.md'
         label: 'Apéritifs'
         name: 'aperitifs'
@@ -124,8 +137,8 @@ collections:
                 ]
             }   
           - { label: 'Image', name: 'image', widget: 'image', required: false } 
-          - { label: 'Clients logo',
-              name: 'logo',
+          - { label: 'Client logo',
+              name: 'logos',
               widget: 'list',
               fields:
                 [
