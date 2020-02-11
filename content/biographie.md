@@ -5,7 +5,7 @@ subtitle: >-
   Travaillant dans les cuisines en France et à l'étranger depuis plus de dix
   ans, Flore Granboulan a acquis une approche unique de la cuisine, végétarienne
   et omnivore.
-image: /assets/_MG_0158.JPG
+image: /assets/unnamed.jpg
 ---
 #### Travaillant dans les cuisines en France et à l'étranger depuis plus de dix ans, Flore Granboulan a acquis une approche unique de la cuisine, végétarienne et omnivore.
 
