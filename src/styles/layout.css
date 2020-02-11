@@ -310,7 +310,9 @@ footer {
   align-items: center;
 }
 .hyphens {
-  hyphens: auto !important ;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 @media only screen and (min-width: 600px) {
@@ -339,8 +341,8 @@ footer {
     flex: 33%;
   }
 }
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   body {
     font-size: 32px;
   }
-}
+} */

@@ -16,18 +16,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 	}
   }
 
-    exports.onCreateWebpackConfig = ({ stage, actions }) => {
-	if (![`develop`, `build-javascript`].includes(stage)) {
-	  return Promise.resolve();
-	}
-	actions.setWebpackConfig({
-	  plugins: [
-		new webpack.IgnorePlugin({
-		  resourceRegExp: /^netlify-identity-widget$/,
-		}),
-	  ],
-	});
-  };
+//     exports.onCreateWebpackConfig = ({ stage, actions }) => {
+// 	if (![`develop`, `build-javascript`].includes(stage)) {
+// 	  return Promise.resolve();
+// 	}
+// 	actions.setWebpackConfig({
+// 	  plugins: [
+// 		new webpack.IgnorePlugin({
+// 		  resourceRegExp: /^netlify-identity-widget$/,
+// 		}),
+// 	  ],
+// 	});
+//   };
 
 // const path = require(`path`)
 // const { createFilePath } = require('gatsby-source-filesystem')
