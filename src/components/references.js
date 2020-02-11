@@ -44,7 +44,7 @@ const References = () => (
           className="content"
           dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
         />
-        <div className="content flexx wrapp mh255">
+        <div className="logos p">
           {data.markdownRemark.frontmatter.logos &&
             data.markdownRemark.frontmatter.logos.map((item, index) => (
               <div className="logo" key={index}>

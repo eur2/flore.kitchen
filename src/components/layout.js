@@ -17,6 +17,7 @@ const Layout = ({ children }) => (
           frontmatter {
             templateKey
             title
+            subtitle
             description
             image {
               publicURL
@@ -49,6 +50,7 @@ const Layout = ({ children }) => (
       <>
         <Head
           title={data.markdownRemark.frontmatter.title}
+          subtitle="aa"
           description={data.markdownRemark.frontmatter.description}
           image={data.markdownRemark.frontmatter.logo.publicURL}
         />

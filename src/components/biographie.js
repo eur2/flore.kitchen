@@ -28,7 +28,6 @@ const Biographie = () => (
       <section id={data.markdownRemark.frontmatter.templateKey}>
         <header>
           <h3>{data.markdownRemark.frontmatter.title}</h3>
-          <h4 className="mbl1">{data.markdownRemark.frontmatter.subtitle}</h4>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         </header>
         {data.markdownRemark.frontmatter.image.childImageSharp.fluid && (

@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 
-const Intro = () => (
+const Intro = ({ children }) => (
   <StaticQuery
     query={graphql`
       query Intro {
@@ -20,9 +20,9 @@ const Intro = () => (
       <section id={data.markdownRemark.frontmatter.templateKey}>
         <header>
           <h3>{data.markdownRemark.frontmatter.title}</h3>
-          <h4>{data.markdownRemark.frontmatter.subtitle}</h4>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         </header>
+        {children}
       </section>
     )}
   />

@@ -22,6 +22,7 @@ collections:
               default: 'metadata'
             }
           - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'text' }
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'Logo', name: 'logo', widget: 'image' }
