@@ -3,7 +3,7 @@ templateKey: post
 title: Cocktails
 slug: 2-cocktails
 menu:
-  - image: /assets/_MG_0158.JPG
+  - image: /assets/Tartelette poti.jpg
     plats:
       - plat: 'Gaspacho de betteraves à l’orange, crème montée à l’aneth (photo)'
       - plat: >-
