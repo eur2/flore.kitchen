@@ -38,7 +38,7 @@ const References = () => (
       <section id={data.markdownRemark.frontmatter.templateKey}>
         <header>
           <h3>{data.markdownRemark.frontmatter.title}</h3>
-          <h4>{data.markdownRemark.frontmatter.subtitle}</h4>
+          {/* <h4>{data.markdownRemark.frontmatter.subtitle}</h4> */}
         </header>
         <div
           className="content"
