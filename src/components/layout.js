@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
               publicURL
               id
               childImageSharp {
-                fluid(maxWidth: 1600, quality: 80) {
+                fluid(maxWidth: 1600, quality: 70) {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }
