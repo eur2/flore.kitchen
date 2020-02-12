@@ -14,7 +14,7 @@ const Biographie = () => (
             image {
               id
               childImageSharp {
-                fluid(maxWidth: 1024, quality: 80) {
+                fluid(maxWidth: 1024, quality: 70) {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }

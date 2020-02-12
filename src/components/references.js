@@ -16,7 +16,7 @@ const References = () => (
               image {
                 id
                 childImageSharp {
-                  fluid(maxWidth: 100, quality: 80) {
+                  fluid(maxWidth: 100, quality: 70) {
                     ...GatsbyImageSharpFluid_noBase64
                   }
                 }
@@ -25,7 +25,7 @@ const References = () => (
             image {
               id
               childImageSharp {
-                fluid(maxWidth: 1024, quality: 80) {
+                fluid(maxWidth: 1024, quality: 70) {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }
