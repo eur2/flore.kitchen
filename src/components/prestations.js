@@ -1,22 +1,23 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
-const Prestations = ({ posts, children }) => (
+const Prestations = ({ posts, id, children }) => (
   <div id="prestations">
     <section>
       <header>
         <h3>Prestations</h3>
-        {posts.map(({ node: post }) => {
-          return (
+        {posts
+          .filter(post => post.node.frontmatter.templateKey === `${id}`)
+          .map(({ node: post }) => (
             <h4 key={post.id}>
               <a href={`#${post.frontmatter.slug}`}>{post.frontmatter.title}</a>
             </h4>
-          );
-        })}
+          ))}
       </header>
     </section>
-    {posts.map(({ node: post }) => {
-      return (
+    {posts
+      .filter(post => post.node.frontmatter.templateKey === `${id}`)
+      .map(({ node: post }) => (
         <article key={post.id} id={post.frontmatter.slug}>
           <header>
             <h3 className="hyphens">{post.frontmatter.title}</h3>
@@ -50,8 +51,7 @@ const Prestations = ({ posts, children }) => (
               ))}
           </div>
         </article>
-      );
-    })}
+      ))}
   </div>
 );
 export default Prestations;
