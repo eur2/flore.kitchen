@@ -4,7 +4,9 @@ title: Conception de recettes
 slug: 5-conception-recettes
 menu:
   - image: /assets/DSCF0068.JPG
-    title: xxx
+    title: 'Photo: Thomas Jaspers'
+  - image: /assets/DSCF0053.jpg
+    title: 'Photo: Thomas Jaspers'
 ---
 #### Flore crée pour vous, votre marque ou votre événement des recettes ou des menus.
 
