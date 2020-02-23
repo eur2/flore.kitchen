@@ -2,6 +2,9 @@
 templateKey: post
 title: Conception de recettes
 slug: 5-conception-recettes
+menu:
+  - image: /assets/DSCF0068.JPG
+    title: xxx
 ---
 #### Flore crée pour vous, votre marque ou votre événement des recettes ou des menus.
 
@@ -11,4 +14,4 @@ Création de recettes pour mettre en valeur les produits proposés par [Pour de 
 
 [](https://blog.pourdebon.com/tagliatelles-de-printemps/)ou [Smartfooding](https://www.smartfooding.com/fr/blog/366_pancakes-sales-sans-gluten-legumes-sautes-sauce-au-yaourt-matcha-citron-et-granola-sale.html)
 
-Conception et création d’un menu à partir de plantes sauvages pour la compagnie L’Organisation à l’occasion de leur spectacle « Le Repas Botanique » au festival de théâtre de Carrouge à Genève
+Conception et création d’un menu à partir de plantes sauvages pour la compagnie L’Organisation à l’occasion de leur spectacle « [Le Repas Botanique](https://www.botaniqueeditions.com/116-a-table-le-repas-champetre) » au festival de théâtre de Carrouge à Genève
