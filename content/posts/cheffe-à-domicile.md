@@ -19,7 +19,7 @@ menu:
           Fraises marinées à la fleur d’oranger, shortbread, crème pâtissière au
           basilic, poudre de prune séchée
     title: Menu d’été
-  - image: /assets/riz-noir.jpg
+  - image: /assets/DSCF0053.jpg
     plats:
       - plat: 'Radis multicolores marinés, tartare d’algues, sarrasin grillé'
       - plat: 'Gravlax de lieu noir, jus d’agrume, grenade et poivre sauvage'
