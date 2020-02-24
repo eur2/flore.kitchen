@@ -103,8 +103,8 @@ collections:
             fields:
               [
                 { label: 'Titre', name: 'title', widget: 'string', required: false },
-                { label: 'Image', name: 'image', widget: 'image' },
-                { label: 'Crédit Photo', name: 'credit', widget: 'string' },
+                { label: 'Image', name: 'image', widget: 'image', required: false },
+                { label: 'Credit Photo', name: 'credit', widget: 'string', required: false },
                 { label: 'Plats', name: 'plats', widget: 'list', fields:
                   [
                     { label: 'Plat', name: 'plat', widget: 'string' }
@@ -114,7 +114,7 @@ collections:
             }  
 
   - name: 'menus'
-    label: 'Menus'
+    label: 'Menu'
     folder: 'content/menus'
     editor:
       preview: false    

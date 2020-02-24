@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+// import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import Section from '../components/section';
 import Instagram from '../components/instagram';
@@ -65,6 +65,7 @@ export const index = graphql`
             }
             menu {
               title
+              credit
               image {
                 id
                 childImageSharp {
@@ -85,65 +86,3 @@ export const index = graphql`
 `;
 
 // filter: { frontmatter: { templateKey: { eq: "post" } } }
-
-{
-  /* {posts.map(({ node: post }) => {
-          return (
-            <Prestation post=
-            <article key={post.id} id={post.frontmatter.slug}>
-              <header>
-                <h3>{post.frontmatter.title}</h3>
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
-              </header>
-              <div className="content">
-                {post.frontmatter.menu &&
-                  post.frontmatter.menu.map((item, index) => (
-                    <div key={index}>
-                      {item.image.childImageSharp.fluid && (
-                        <Img
-                          fluid={item.image.childImageSharp.fluid}
-                          style={{ margin: 'auto' }}
-                          alt="flore"
-                        />
-                      )}
-                      <div>
-                        <h4>{item.title}</h4>
-                        <ul>
-                          {item.plats &&
-                            item.plats.map((item, index) => (
-                              <li key={index}>
-                                **
-                                <br />
-                                {item.plat}
-                              </li>
-                            ))}
-                        </ul>
-                      </div>
-                    </div>
-                  ))}
-              </div>
-            </article>
-          );
-        })} */
-}
-
-{
-  /* <section id="prestations">
-        <header>
-          <h3>Prestations</h3>
-          {posts.map(({ node: post }) => {
-            return (
-              <h4 key={post.id}>
-                <a href={`#${post.frontmatter.slug}`}>
-                  {post.frontmatter.title}
-                </a>
-              </h4>
-            );
-          })}
-        </header>
-
-        {posts.map(({ node: post }) => {
-          return <Prestation post={post} />;
-        })}
-      </section> */
-}

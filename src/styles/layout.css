@@ -262,6 +262,9 @@ footer {
 .ml50 {
   margin-left: 50%;
 }
+.m0 {
+  margin: 0;
+}
 .m1 {
   margin: 1em;
 }

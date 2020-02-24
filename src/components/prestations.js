@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
-const Prestations = ({ posts, id, children }) => (
+const Prestations = ({ posts, id }) => (
   <div id="prestations">
     <section>
       <header>
@@ -34,6 +34,7 @@ const Prestations = ({ posts, id, children }) => (
                       alt="flore"
                     />
                   )}
+                  {item.credit && <p className="m0">{item.credit}</p>}
                   <div>
                     <h4>{item.title}</h4>
                     <ul>
@@ -43,6 +44,8 @@ const Prestations = ({ posts, id, children }) => (
                             **
                             <br />
                             {item.plat}
+                            <br />
+                            <br />
                           </li>
                         ))}
                     </ul>
