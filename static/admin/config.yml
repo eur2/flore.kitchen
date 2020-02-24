@@ -102,12 +102,31 @@ collections:
             widget: 'list',
             fields:
               [
-                { label: 'Titre', name: 'title', widget: 'string' },
+                { label: 'Titre', name: 'title', widget: 'string', required: false },
                 { label: 'Image', name: 'image', widget: 'image' },
+                { label: 'Crédit Photo', name: 'credit', widget: 'string' },
                 { label: 'Plats', name: 'plats', widget: 'list', fields:
                   [
                     { label: 'Plat', name: 'plat', widget: 'string' }
                   ] 
                 }
               ]
-            }           
+            }  
+
+  - name: 'menus'
+    label: 'Menus'
+    folder: 'content/menus'
+    editor:
+      preview: false    
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'menu',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Texte', name: 'body', widget: 'markdown' }

@@ -87,7 +87,7 @@ p,
 ul {
   padding: 0;
   list-style: none;
-  font-size: 0.6em;
+  font-size: 0.65em;
   text-align: center;
 }
 summary {
@@ -134,7 +134,7 @@ nav a {
   align-items: center;
   flex-wrap: wrap;
   min-height: 25vh;
-  padding: 0.5em;
+  /* padding: 0.5em; */
 }
 /* .content div,
 .content article,
