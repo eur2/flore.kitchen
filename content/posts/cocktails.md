@@ -5,13 +5,13 @@ slug: 2-cocktails
 menu:
   - image: /assets/Tartelette poti.jpg
     plats:
-      - plat: 'Gaspacho de betteraves à l’orange, crème montée à l’aneth (photo)'
+      - plat: 'Gaspacho de betteraves à l’orange, crème montée à l’aneth'
       - plat: >-
           Maquereau mi-cuit, réduction de soja et gingembre, condiment aux
           algues
       - plat: 'Tartelette aux asperges croquante, et verveine'
       - plat: 'Crème de céleri au zeste de bergamote, biscuit croquant, poutargue'
-      - plat: 'Feuilleté aux lentilles vertes, persil, crème crue et grenade (photo)'
+      - plat: 'Feuilleté aux lentilles vertes, persil, crème crue et grenade'
       - plat: 'Bleu du Queyras, poires, biscuit aux flocons d’avoine et poivre noir'
       - plat: 'Pickles de shitake au café, œuf et ciboulette'
       - plat: >-
@@ -21,7 +21,7 @@ menu:
     title: Menu salé
   - image: /assets/choco.jpg
     plats:
-      - plat: Croquant de fruits secs au caramel et chocolat (photo)
+      - plat: 'Croquant de fruits secs au caramel et chocolat '
       - plat: 'Rhubarbe rôtie, crème coco-cardamome, biscuit à l’avoine'
       - plat: 'Mousse au pamplemousse, tuile croustillante, shiso'
       - plat: 'Moelleux à la mandarine et à la fève tonka, fleur d’oranger'
