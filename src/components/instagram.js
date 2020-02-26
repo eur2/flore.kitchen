@@ -42,8 +42,8 @@ export default class extends Component {
           this.state.photos.map(({ src, url, caption }) => (
             <div key={src} className="insta">
               <a href={url} target="_blank" rel="noopener noreferrer">
-                <span className="none">{caption}</span>
                 <img loading="lazy" src={src} alt={caption} />
+                <p className="none">{caption}</p>
               </a>
             </div>
           ))}

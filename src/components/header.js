@@ -59,7 +59,7 @@ const Header = ({
             fluid={logo}
             // style={{ maxwidth: '180px' }}
             alt={title}
-            className="h50 m-auto p"
+            className="h50 m1"
           />
         </a>
       )}

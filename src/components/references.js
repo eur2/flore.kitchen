@@ -14,10 +14,10 @@ const References = ({ posts, id }) => (
             className="content"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
-          <div className="logos p">
+          <div className="flex ai-center jc-center wrap p">
             {post.frontmatter.logos &&
               post.frontmatter.logos.map((item, index) => (
-                <div className="logo" key={index}>
+                <div className="logo flex100" key={index}>
                   {item.image.childImageSharp.fluid && (
                     <Img
                       fluid={item.image.childImageSharp.fluid}
