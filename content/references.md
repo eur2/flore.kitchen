@@ -17,7 +17,7 @@ logos:
   - image: /assets/logo-crédit-agricole-png.png
 image: /assets/IMG_9776.JPG
 ---
-*Cheffe très professionnelle qui nous a préparé un repas extraordinaire, aux saveurs parfois inconnues mais toujours délicieuses. Les plats étaient de plus très bien présentés. Flore a été très sympatique, efficace et à l'écoute pour l'organisation de notre réception*. \*\*Nathalie P.\*\*
+*Cheffe très professionnelle qui nous a préparé un repas extraordinaire, aux saveurs parfois inconnues mais toujours délicieuses. Les plats étaient de plus très bien présentés. Flore a été très sympathique, efficace et à l'écoute pour l'organisation de notre réception*. \*\*Nathalie P.\*\*
 
 *Super expérience avec Flore qui a préparé un buffet très varié, original et délicieux pour notre fête d'entreprise! Son organisation parfaite nous a permis de nous concentrer sur le reste de la soirée. Nous avons été très heureux de constater de plus qu'aucun plastique n'avait été utilisé*. \*\*Alix G., Société Adamantia\*\*
 
