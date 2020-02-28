@@ -13,10 +13,12 @@ logos:
   - image: /assets/ref-6.png
   - image: /assets/ref.jpg
   - image: /assets/philharmonie.jpg
+  - image: /assets/marque-puissante-strategie-creation-valeur-accenture-201904.jpg
+  - image: /assets/logo-crédit-agricole-png.png
 image: /assets/IMG_9776.JPG
 ---
-*Première expérience de chef à domicile très concluante ! La chef était très sympathique et efficace, les plats délicieux et joliment présentés.* \*\*Julia B.\*\*
+*Première expérience de chef à domicile très concluante ! La chef était très professionnelle, sympathique et efficace, les plats délicieux et joliment présentés.* \*\*Julia B.\*\*
 
-*Super expérience avec Flore qui a préparé un buffet très varié, original et délicieux pour notre fête d'entreprise! Son organisation parfaite nous a permis de nous concentrer sur le reste de la soirée. Nous avons été très heureux de constater de plus qu'aucun plastique n'avait été utilisé*. \*\*Alix G.\*\*
+*Super expérience avec Flore qui a préparé un buffet très varié, original et délicieux pour notre fête d'entreprise! Son organisation parfaite nous a permis de nous concentrer sur le reste de la soirée. Nous avons été très heureux de constater de plus qu'aucun plastique n'avait été utilisé*. \*\*Alix G., Société Adamantia\*\*
 
-*Première expérience de chef à domicile très concluante ! La chef était très sympathique et efficace, les plats délicieux et joliment présentés.* \*\*Julia B.\*\*
+*Notre expérience avec Flore Granboulan a été parfaite : le diner était original et absolument délicieux. Flore a su trouver le bon équilibre entre discrétion et spontanéité... Nous avons passé une très bonne soirée, et nous recommandons Flore sans aucune hésitation !* \*\*Alexandre D.\*\*
