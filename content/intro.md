@@ -7,7 +7,7 @@ title: Intro
 #### Flore vous propose une cuisine entièrement faite maison, à partir d’ingrédients frais, de saison, issus de l’agriculture biologique ou raisonnée.
 
 \*\*\
-La passion de la cuisine, des herbes, des épices, des couleurs, des mélanges
+La passion de la cuisine, des herbes, des épices, des couleurs, des saveurs
 
 \*\*\
 Une grande expérience de le cuisine végétarienne, vegan, sans gluten, sans sucres raffinés
