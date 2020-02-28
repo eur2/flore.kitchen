@@ -9,7 +9,7 @@ menu:
       - plat: >-
           Maquereau mi-cuit, réduction de soja et gingembre, condiment aux
           algues
-      - plat: 'Tartelette aux asperges croquante, et verveine'
+      - plat: 'Tartelette aux asperges croquante, fromage frais et verveine'
       - plat: 'Crème de céleri au zeste de bergamote, biscuit croquant, poutargue'
       - plat: 'Feuilleté aux lentilles vertes, persil, crème crue et grenade'
       - plat: 'Bleu du Queyras, poires, biscuit aux flocons d’avoine et poivre noir'
@@ -24,7 +24,10 @@ menu:
       - plat: 'Croquant de fruits secs au caramel et chocolat '
       - plat: 'Rhubarbe rôtie, crème coco-cardamome, biscuit à l’avoine'
       - plat: 'Mousse au pamplemousse, tuile croustillante, shiso'
-      - plat: 'Moelleux à la mandarine et à la fève tonka, fleur d’oranger'
+      - plat: 'Moelleux à la mandarine et aux amandes, fleur d’oranger '
+      - plat: Fondant à la courge et mousse café
+      - plat: 'Brownie à la fève tonka, crème à la rose'
+      - plat: Caramels mous à la cardamome et zeste d'orange
     title: Menu sucré
 ---
 #### De petites pièces originales à déguster debout pour un apéritif, un cocktail déjeunatoire ou dinatoire.
