@@ -17,8 +17,8 @@ logos:
   - image: /assets/logo-crédit-agricole-png.png
 image: /assets/IMG_9776.JPG
 ---
-*Cheffe très professionnelle qui nous a préparé un repas extraordinaire, aux saveurs parfois inconnues mais toujours délicieuses. Les plats étaient de plus très bien présentés. Flore a été très sympathique, efficace et à l'écoute pour l'organisation de notre réception*. \*\*Nathalie P.\*\*
+*Cheffe très professionnelle qui nous a préparé un repas extraordinaire, aux saveurs parfois inconnues mais toujours délicieuses. Les plats étaient de plus très bien présentés. Flore a été très sympathique, efficace et à l'écoute pour l'organisation de notre réception*
 
-*Super expérience avec Flore qui a préparé un buffet très varié, original et délicieux pour notre fête d'entreprise! Son organisation parfaite nous a permis de nous concentrer sur le reste de la soirée. Nous avons été très heureux de constater de plus qu'aucun plastique n'avait été utilisé*. \*\*Alix G., Société Adamantia\*\*
+*Super expérience avec Flore qui a préparé un buffet très varié, original et délicieux pour notre fête d'entreprise! Son organisation parfaite nous a permis de nous concentrer sur le reste de la soirée. Nous avons été très heureux de constater de plus qu'aucun plastique n'avait été utilisé*
 
-*Notre expérience avec Flore Granboulan a été parfaite : le diner était original et absolument délicieux. Flore a su trouver le bon équilibre entre discrétion et spontanéité... Nous avons passé une très bonne soirée, et nous recommandons Flore sans aucune hésitation !* \*\*Alexandre D.\*\*
+*Notre expérience avec Flore Granboulan a été parfaite : le diner était original et absolument délicieux. Flore a su trouver le bon équilibre entre discrétion et spontanéité... Nous avons passé une très bonne soirée, et nous recommandons Flore sans aucune hésitation !*
