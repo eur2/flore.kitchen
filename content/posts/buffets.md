@@ -16,7 +16,7 @@ menu:
       - plat: Condiment coco-coriandre-piment
       - plat: 'Fondant à la courge et aux amandes, caramel au café'
     title: Menu couleurs d’hiver
-  - image: /assets/buffet.jpg
+  - image: /assets/agoracollective.jpg
     plats:
       - plat: Polenta fondante aux herbes de Provence et aux olives de Kalamata
       - plat: Sauce tomates relevée au pastis et à l’orange
