@@ -11,7 +11,7 @@ menu:
           confites, ricotta salata
       - plat: >-
           Feuilles de blettes farcies d’un risotto au citron confit, fenouil
-          croquant, crème au persil, citron kafir (photo ci-contre)
+          croquant, crème au persil, citron kafir 
       - plat: >-
           Champignons marinés, jeunes pousses, petits pois crus, yaourt infusé
           au cumin
@@ -35,6 +35,6 @@ menu:
           sésame noir, réduction orange-safran
     title: Menu d’hiver
 ---
-#### Envie de surprendre vos invités ? Pas le temps de cuisiner ? Pas envie d’aller au restaurant ? Flore prend en charge votre repas de A à Z, des propositions de menus au rangement de la cuisine.
+#### Flore prend en charge votre repas chez vous de A à Z, des propositions de menus au rangement de la cuisine.
 
 Tarifs sur mesure, devis sur demande
