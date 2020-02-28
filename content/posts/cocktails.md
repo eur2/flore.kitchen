@@ -19,7 +19,7 @@ menu:
           graines de lin doré
       - plat: 'Magret rosé, crème de potimarron, pomme acidulée'
     title: Menu salé
-  - image: /assets/choco.jpg
+  - image: /assets/_MG_0158.JPG
     plats:
       - plat: 'Croquant de fruits secs au caramel et chocolat '
       - plat: 'Rhubarbe rôtie, crème coco-cardamome, biscuit à l’avoine'
