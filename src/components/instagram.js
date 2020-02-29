@@ -43,7 +43,7 @@ export default class extends Component {
             <div key={src} className="insta">
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <img loading="lazy" src={src} alt={caption} />
-                <p className="none">{caption}</p>
+                {/* <p className="none">{caption}</p> */}
               </a>
             </div>
           ))}

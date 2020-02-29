@@ -10,7 +10,9 @@ const Prestations = ({ posts, id }) => (
           .filter(post => post.node.frontmatter.templateKey === `${id}`)
           .map(({ node: post }) => (
             <h4 key={post.id}>
-              <a href={`#${post.frontmatter.slug}`}>{post.frontmatter.title}</a>
+              <a href={`#${post.frontmatter.slug.slice(2, 25)}`}>
+                {post.frontmatter.title}
+              </a>
             </h4>
           ))}
       </header>
@@ -18,7 +20,7 @@ const Prestations = ({ posts, id }) => (
     {posts
       .filter(post => post.node.frontmatter.templateKey === `${id}`)
       .map(({ node: post }) => (
-        <article key={post.id} id={post.frontmatter.slug}>
+        <article key={post.id} id={post.frontmatter.slug.slice(2, 25)}>
           <header>
             <h3 className="hyphens">{post.frontmatter.title}</h3>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -34,7 +36,7 @@ const Prestations = ({ posts, id }) => (
                       alt="flore"
                     />
                   )}
-                  {item.credit && <p className="m0">{item.credit}</p>}
+                  {item.credit && <p className="credit">{item.credit}</p>}
                   <div>
                     <h4>{item.title}</h4>
                     <ul>

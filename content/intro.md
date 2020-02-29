@@ -13,7 +13,7 @@ La passion de la cuisine, des herbes, des épices, des couleurs, des saveurs
 Une grande expérience de le cuisine végétarienne, vegan, sans gluten, sans sucres raffinés
 
 \*\*\
-L’expérience d'années de travail dans la restauration
+L’expérience d’années de travail dans la restauration
 
 \*\*\
 L’engagement pour une consommation durable et responsable, avec notamment un service 100% zéro déchet
