@@ -37,4 +37,4 @@ menu:
 ---
 #### Flore prend en charge votre repas chez vous de A à Z, des propositions de menus au rangement de la cuisine.
 
-Tarifs sur mesure, devis sur demande
+*Tarifs sur mesure, devis sur demande*
