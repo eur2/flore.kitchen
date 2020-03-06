@@ -3,10 +3,10 @@ templateKey: metadata
 title: Flore
 subtitle: 'Cheffe à domicile, traiteur sur mesure'
 description: >-
-  Des menus sur mesure, selon vos envies, vos besoins et votre budget:
-  déjeuners, dîners, goûters, buffets, cocktails, repas à domicile. Flore
-  vous propose une cuisine entièrement faite maison, à partir d’ingrédients
-  frais, de saison, issus de l’agriculture biologique ou raisonnée.
+  La cuisine de Flore est gourmande, fraîche et colorée. L'exploration des
+  potentiels du végétal, du gluten free et des saisons y sont sources de
+  créativité. Élaborée à partir de produits bruts, issus de l'agriculture
+  biologique ou raisonnée, tout y est fait maison et sur mesure.
 image: /assets/IMG_9784.JPG
 logo: /assets/logo.jpg
 instagram: 'https://www.instagram.com/floregranboulan/'
