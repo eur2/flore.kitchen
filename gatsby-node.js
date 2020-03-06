@@ -15,7 +15,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 	  })
 	}
   }
-/*
     exports.onCreateWebpackConfig = ({ stage, actions }) => {
 	if (![`develop`, `build-javascript`].includes(stage)) {
 	  return Promise.resolve();
@@ -27,7 +26,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 		}),
 	  ],
 	});
-  };*/
+  };
 
 // const path = require(`path`)
 // const { createFilePath } = require('gatsby-source-filesystem')
