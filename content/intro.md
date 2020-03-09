@@ -2,9 +2,7 @@
 templateKey: intro
 title: Intro
 ---
-#### Des menus sur mesure, selon vos envies, vos besoins et votre budget : déjeuners, dîners, goûters, buffets, cocktails, repas à domicile...
-
-#### Flore vous propose une cuisine entièrement faite maison, à partir d’ingrédients frais, de saison, issus de l’agriculture biologique ou raisonnée.
+**La cuisine de Flore est gourmande, fraîche et colorée. L'exploration des potentiels du végétal, du gluten free et des saisons y sont sources de créativité. Élaborée à partir de produits bruts, issus de l'agriculture biologique ou raisonnée, tout y est fait maison et sur mesure**
 
 \*\*\
 La passion de la cuisine, des herbes, des épices, des couleurs, des saveurs
