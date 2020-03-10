@@ -6,11 +6,11 @@ menu:
   - image: /assets/salade.jpg
     plats:
       - plat: >-
-          Mijoté aux deux lentilles, potimarron rôti épices douces, lait de
+          Mijoté aux deux lentilles, potimarron rôti aux épices douces, lait de
           coco, graines de moutarde noire et cardamome
       - plat: 'Sauce au yaourt grec, zeste de citron et crème de sésame'
       - plat: >-
-          Salade croquante de chou rouge, vinaigrette aigre-douce, échalotes et
+          Salade croquante de chou rouge, vinaigrette aigre-douce, échalote et
           menthe
       - plat: Pickles de betteraves au gingembre
       - plat: Condiment coco-coriandre-piment
@@ -19,7 +19,7 @@ menu:
   - image: /assets/legumes.jpg
     plats:
       - plat: Polenta fondante aux herbes de Provence et aux olives de Kalamata
-      - plat: Sauce tomates relevée au pastis et à l’orange
+      - plat: Sauce tomate relevée au pastis et à l’orange
       - plat: Blettes et épinards sautées aux graines de coriandre et citron confit
       - plat: 'Légumes de printemps glacés, beurre au piment fumé'
       - plat: 'Salade de petits pois, féta, échalote et aneth'
