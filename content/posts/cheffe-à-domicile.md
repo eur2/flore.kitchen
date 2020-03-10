@@ -28,7 +28,7 @@ menu:
           Filet de merlu, patates douces rôties, bouillon curcuma-gingembre,
           beurre piquant aux échalotes
       - plat: >-
-          Salade croquante de légumes racine, luzerne germées, sésame grillé,
+          Salade croquante de légumes racine, luzerne germée, sésame grillé,
           vinaigrette à l’huile de sésame
       - plat: >-
           Mousse de pamplemousse, suprêmes d’orange et mandarine, tuile au
