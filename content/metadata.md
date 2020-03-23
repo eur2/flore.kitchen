@@ -5,7 +5,7 @@ subtitle: 'Cheffe à domicile, traiteur sur mesure'
 description: >-
   La cuisine de Flore est gourmande, fraîche et colorée. L'exploration des
   potentiels du végétal, du gluten free et des saisons y sont sources de
-  créativité. Élaborée à partir de produits bruts, issus de l'agriculture
+  créativité. Élaborée à partir de produits ultra-frais, issus de l'agriculture
   biologique ou raisonnée, tout y est fait maison et sur mesure.
 image: /assets/IMG_9784.JPG
 logo: /assets/logo.jpg
