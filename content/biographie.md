@@ -11,4 +11,4 @@ Aujourd’hui, elle vous propose de concocter où vous le souhaitez des menus cr
 
 De plus, sa flexibilité, son écoute, et ses grandes qualités organisationnelles seront les garanties d’un événement réussi.
 
-Depuis son retour à Paris, Flore a également rejoint le réseau de chefs solidaires [Ernest](http://hello-ernest.com/fr/) ainsi que [l'Ecole comestible](http://ecolecomestible.org/).
+Depuis son retour à Paris, Flore a également rejoint le réseau de chefs solidaires [Ernest](http://hello-ernest.com/fr/) ainsi que [l'Ecole comestible](http://ecolecomestible.org/), à travers lesquels elle transmet sa passion de la cuisine et des bons produits
