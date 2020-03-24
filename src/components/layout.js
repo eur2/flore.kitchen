@@ -2,6 +2,8 @@ import React from 'react';
 //import PropTypes from 'prop-types';
 //import { graphql, StaticQuery } from 'gatsby';
 import '../styles/layout.css';
+// import '../styles/print.css';
+
 //import Head from './head';
 //import Header from './header';
 //import Nav from './nav';

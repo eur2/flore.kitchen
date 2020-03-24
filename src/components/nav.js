@@ -7,6 +7,7 @@ const Nav = () => (
     <a href="#prestations">Prestations</a>
     <a href="#biographie">Bio</a>
     <a href="#references">Références</a>
+    <a href="#contact">Contact</a>
   </nav>
 );
 export default Nav;

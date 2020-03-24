@@ -1,0 +1,24 @@
+@media print {
+  @page {
+    size: 21cm 29.7cm;
+    margin: 1cm;
+  }
+  body {
+    font-size: 20pt;
+    orphans: 3;
+    widows: 3;
+  }
+  aside {
+    display: none !important;
+  }
+  article {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    max-width: 10cm;
+  }
+}

@@ -10,7 +10,7 @@ import References from '../components/references';
 import Head from '../components/head';
 import Header from '../components/header';
 import Nav from '../components/nav';
-import Footer from '../components/footer';
+import Contact from '../components/contact';
 
 const INSTAGRAM_ID = '4536541103';
 const THUMBNAIL_WIDTH = 640;
@@ -49,7 +49,7 @@ const Index = ({ data }) => {
         <Section posts={posts} id="biographie" />
         <References posts={posts} id="references" />
       </main>
-      <Footer address={post.frontmatter.address} />
+      <Contact tel={post.frontmatter.tel} email={post.frontmatter.email} address={post.frontmatter.address} />
     </Layout>
   );
 };

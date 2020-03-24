@@ -11,7 +11,7 @@ const Header = ({
   instagram,
   email,
 }) => (
-  <header id="contact" className="w100 jc-center">
+  <header className="w100 jc-center">
     <div className="fixed t0 l0 r0 p pb0 flex jc-sb bgwhite">
       <div>
         <a href={facebook} target="_blank" rel="noopener noreferrer">
@@ -28,7 +28,7 @@ const Header = ({
       </div>
       <div>
         <h1>
-          <a href="#contact">{title}</a>
+          <a href="#">{title}</a>
         </h1>
       </div>
       <div>
@@ -47,12 +47,12 @@ const Header = ({
 
       <h2>{subtitle}</h2>
 
-      <h2>
+      {/* <h2>
         <a href={`tel:${tel}`}>{tel}</a>
       </h2>
       <h2>
         <a href={`mailto:${email}`}>{email}</a>
-      </h2>
+      </h2> */}
       {logo && (
         <a href="#instagram">
           <Img
