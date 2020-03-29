@@ -24,4 +24,4 @@ menu:
       - plat: 'Fruits rouges, mousse de fromage blanc à la fleur d’oranger, caramel'
     title: Menu d’arrivée du printemps
 ---
-#### **Des plats créatifs, gourmands et conviviaux servis en buffet pour toutes vos occasions festives.**
+#### Des plats créatifs, gourmands et conviviaux servis en buffet pour toutes vos occasions festives.
