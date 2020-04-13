@@ -7,7 +7,7 @@ import Instagram from '../components/instagram';
 import Prestations from '../components/prestations';
 import References from '../components/references';
 
-import Head from '../components/head';
+// import Head from '../components/head';
 import Header from '../components/header';
 import Nav from '../components/nav';
 import Contact from '../components/contact';
@@ -19,13 +19,12 @@ const Index = ({ data }) => {
   const { markdownRemark: post } = data;
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <Layout>
-      <Head
-        title={post.frontmatter.title}
-        subtitle={post.frontmatter.subtitle}
-        description={post.frontmatter.description}
-        image={post.frontmatter.logo.publicURL}
-      />
+    <Layout
+      title={post.frontmatter.title}
+      subtitle={post.frontmatter.subtitle}
+      description={post.frontmatter.description}
+      image={post.frontmatter.logo.publicURL}
+    >
       <Header
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
@@ -49,7 +48,11 @@ const Index = ({ data }) => {
         <Section posts={posts} id="biographie" />
         <References posts={posts} id="references" />
       </main>
-      <Contact tel={post.frontmatter.tel} email={post.frontmatter.email} address={post.frontmatter.address} />
+      <Contact
+        tel={post.frontmatter.tel}
+        email={post.frontmatter.email}
+        address={post.frontmatter.address}
+      />
     </Layout>
   );
 };

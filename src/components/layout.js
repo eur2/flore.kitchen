@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 //import PropTypes from 'prop-types';
 //import { graphql, StaticQuery } from 'gatsby';
 import '../styles/layout.css';
@@ -10,7 +11,24 @@ import '../styles/layout.css';
 // import Social from './social';
 //import Footer from './footer';
 
-const Layout = ({ children }) => <>{children}</>;
+const Layout = ({ children, title, subtitle, description, image }) => (
+  <>
+    <Helmet>
+      <html lang="fr" />
+      <title>{`${title} — ${subtitle}`}</title>
+      <meta name="description" content={description} />
+      <meta name="og:title" content={`${title} — ${subtitle}`} />
+      <meta name="og:description" content={description} />
+      <meta name="og:type" content="website" />
+      <meta name="og:image" content={image} />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={`${title} — ${subtitle}`} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+    </Helmet>
+    {children}
+  </>
+);
 
 export default Layout;
 
