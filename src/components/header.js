@@ -1,5 +1,6 @@
 import React from 'react';
 import Img from 'gatsby-image';
+import { Link } from 'gatsby';
 
 const Header = ({
   title,
@@ -28,7 +29,8 @@ const Header = ({
       </div>
       <div>
         <h1>
-          <a href="#">{title}</a>
+          {/* <a href="./#">{title}</a> */}
+          <Link to="/">{title}</Link>
         </h1>
       </div>
       <div>

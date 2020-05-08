@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Order from './order';
 
@@ -47,7 +48,14 @@ const Header1 = ({
       </h1> */}
 
       <h2>{subtitle}</h2>
-      <Order />
+
+      <div className="flex w100 wrap jc-center">
+        <Link className="border" to="/livraison/">
+          Livraison de repas
+        </Link>
+      </div>
+
+      {/* <Order /> */}
 
       {/* <h2>
         <a href={`tel:${tel}`}>{tel}</a>

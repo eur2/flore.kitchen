@@ -37,8 +37,12 @@ a:hover,
 p a {
   color: rgb(0, 255, 0);
 }
-p a, .underline {
+p a,
+.underline {
   text-decoration: underline;
+}
+.border {
+  border: 2px solid rgb(0, 255, 0);
 }
 button,
 input {
@@ -48,7 +52,6 @@ input {
   outline: 0;
   border: 2px solid rgb(0, 255, 0);
   cursor: pointer;
-
 }
 img {
   max-width: 100%;
@@ -136,7 +139,10 @@ nav a {
 section {
   min-height: 100vh;
 }
-
+.flex50 {
+  flex: 40%;
+  margin: 1em;
+}
 .flex600,
 .content p {
   flex: 600px;
