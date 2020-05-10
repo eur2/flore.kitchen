@@ -4,12 +4,12 @@ title: Livraison de repas
 ---
 #### Menus créatifs, sains et gourmands qui changent toutes les semaines. Nous nous adaptons à vos régimes spéciaux ou allergies.
 
-Plats livrés froids à réchauffer vous-même au four/ micro-ondes/ casserole
+Plats à réchauffer vous-même au four/ micro-ondes/ casserole
 
-Produits bio, issus de circuits courts via Le Zingam ou Biocoop
+Produits de saison et de qualité, en majorité issus de l'agriculture biologique
 
 Livraison les jeudis, vendredis et samedis
 
-Commande avant 12h la veille
+Livraison incluse dans Paris
 
-Minimum de commande : 44€
+Commande avant 12h la veille de votre livraison
