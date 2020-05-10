@@ -1,17 +1,15 @@
 ---
 templateKey: livraison
-title: Livraison
+title: Livraison de repas
 ---
-#### La cuisine de Flore est gourmande, fraîche et colorée. L'exploration des potentiels du végétal, du gluten free et des saisons y sont sources de créativité. Élaborée à partir de produits ultra-frais, issus de l'agriculture biologique ou raisonnée, tout y est fait maison et sur mesure
+#### Menus créatifs, sains et gourmands qui changent toutes les semaines. Nous nous adaptons à vos régimes spéciaux ou allergies.
 
-\*\*\
-La passion de la cuisine, des herbes, des épices, des couleurs, des saveurs
+Plats livrés froids à réchauffer vous-même au four/ micro-ondes/ casserole
 
-\*\*\
-Une grande expérience de le cuisine végétarienne, vegan, sans gluten, sans sucres raffinés
+Produits bio, issus de circuits courts via Le Zingam ou Biocoop
 
-\*\*\
-Une grande expérience en tant que cheffe professionnelle, en France et à l'étranger
+Livraison les jeudis, vendredis et samedis
 
-\*\*\
-L’engagement pour une consommation durable et responsable, avec notamment un service 100% zéro déchet
+Commande avant 12h la veille
+
+Minimum de commande : 44€
