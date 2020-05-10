@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import Img from 'gatsby-image';
-import Order from './order';
+import { Link } from 'gatsby';
 
-const Header1 = ({
+const HeaderLivraison = ({
   title,
   subtitle,
   image,
@@ -30,7 +29,8 @@ const Header1 = ({
       </div>
       <div>
         <h1>
-          <a href="#">{title}</a>
+          {/* <a href="./#">{title}</a> */}
+          <Link to="/">{title}</Link>
         </h1>
       </div>
       <div>
@@ -48,14 +48,6 @@ const Header1 = ({
       </h1> */}
 
       <h2>{subtitle}</h2>
-
-      <div className="flex w100 wrap jc-center">
-        <Link className="border" to="/livraison/">
-          Livraison de repas
-        </Link>
-      </div>
-
-      {/* <Order /> */}
 
       {/* <h2>
         <a href={`tel:${tel}`}>{tel}</a>
@@ -77,4 +69,4 @@ const Header1 = ({
     {image && <Img fluid={image} style={{ maxwidth: '100%' }} alt={title} />}
   </header>
 );
-export default Header1;
+export default HeaderLivraison;

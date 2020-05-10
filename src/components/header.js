@@ -1,17 +1,8 @@
 import React from 'react';
-import Img from 'gatsby-image';
 import { Link } from 'gatsby';
+import Img from 'gatsby-image';
 
-const Header = ({
-  title,
-  subtitle,
-  image,
-  logo,
-  tel,
-  facebook,
-  instagram,
-  email,
-}) => (
+const Header = ({ title, subtitle, image, logo, facebook, instagram }) => (
   <header className="w100 jc-center">
     <div className="fixed t0 l0 r0 p pb0 flex jc-sb bgwhite">
       <div>
@@ -29,8 +20,7 @@ const Header = ({
       </div>
       <div>
         <h1>
-          {/* <a href="./#">{title}</a> */}
-          <Link to="/">{title}</Link>
+          <a href="#">{title}</a>
         </h1>
       </div>
       <div>
@@ -48,6 +38,14 @@ const Header = ({
       </h1> */}
 
       <h2>{subtitle}</h2>
+
+      <div className="flex w100 wrap jc-center">
+        <Link className="border" to="/livraison/">
+          Livraison de repas
+        </Link>
+      </div>
+
+      {/* <Order /> */}
 
       {/* <h2>
         <a href={`tel:${tel}`}>{tel}</a>

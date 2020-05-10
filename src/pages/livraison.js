@@ -1,26 +1,17 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
-import Header from '../components/header';
-import Contact from '../components/contact';
+import Head from '../components/head';
 
 const Livraison = ({ data }) => {
   const { markdownRemark: post } = data;
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <Layout
-      title="Flore"
-      subtitle="Livraison de repas, Cheffe à domicile, traiteur sur mesure"
-      description="Livraison de repas, Cheffe à domicile, traiteur sur mesure"
-    >
-      <Header
-        title={post.frontmatter.title}
-        subtitle={post.frontmatter.subtitle}
-        logo={post.frontmatter.logo.childImageSharp.fluid}
-        tel={post.frontmatter.tel}
-        email={post.frontmatter.email}
-        instagram={post.frontmatter.instagram}
-        facebook={post.frontmatter.facebook}
+    <Layout location="livraison">
+      <Head
+        title="Flore"
+        subtitle="Livraison de repas, Cheffe à domicile, traiteur sur mesure"
+        description="Livraison de repas, Cheffe à domicile, traiteur sur mesure"
       />
       <nav className="fixed w100 b0 l0 r0 flex jc-center wrap p">
         <a
@@ -34,10 +25,21 @@ const Livraison = ({ data }) => {
         <article>
           <header>
             <h3>Livraison de repas</h3>
+            <h3>{data.markdownRemark.frontmatter.title}</h3>
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <h4>
               Menus créatifs, sains et gourmands qui changent toutes les
-              semaines.
+              semaines. Produits bio, issus de circuits courts via Le Zingam ou
+              Biocoop. Nous nous adaptons à vos régimes spéciaux ou allergies.
             </h4>
+            <p>
+              Plats livrés froids à réchauffer vous-même au four/ micro-ondes/
+              casserole
+            </p>
+            <p></p>
+            <p>Livraison les jeudis, vendredis et samedis</p>
+            <p>Commande avant 12h la veille</p>
+            <p> Minimum de commande : 44€</p>
           </header>
           <div className="flex wrap">
             {posts.map(({ node: post }) => {
@@ -56,27 +58,8 @@ const Livraison = ({ data }) => {
               );
             })}
           </div>
-          <header>
-            <h4>
-              Produits bio, issus de circuits courts via Le Zingam ou Biocoop.
-              Nous nous adaptons à vos régimes spéciaux ou allergies.
-            </h4>
-            <p>
-              Plats livrés froids à réchauffer vous-même au four/ micro-ondes/
-              casserole
-            </p>
-            <p></p>
-            <p>Livraison les jeudis, vendredis et samedis</p>
-            <p>Commande avant 12h la veille</p>
-            <p> Minimum de commande : 44€</p>
-          </header>
         </article>
       </main>
-      <Contact
-        tel={post.frontmatter.tel}
-        email={post.frontmatter.email}
-        address={post.frontmatter.address}
-      />
     </Layout>
   );
 };
@@ -84,40 +67,15 @@ export default Livraison;
 
 export const livraisonQuery = graphql`
   query Livraison {
-    markdownRemark(frontmatter: { templateKey: { eq: "metadata" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "livraison" } }) {
       html
       frontmatter {
         templateKey
         title
-        subtitle
-        description
-        image {
-          publicURL
-          id
-          childImageSharp {
-            fluid(maxWidth: 1600, quality: 70) {
-              ...GatsbyImageSharpFluid_noBase64
-            }
-          }
-        }
-        logo {
-          publicURL
-          id
-          childImageSharp {
-            fluid(maxWidth: 180, quality: 80) {
-              ...GatsbyImageSharpFluid_noBase64
-            }
-          }
-        }
-        instagram
-        facebook
-        tel
-        email
-        address
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "livraison" } } }
+      filter: { frontmatter: { templateKey: { eq: "livraisonmenu" } } }
       sort: { order: ASC, fields: [frontmatter___date] }
     ) {
       edges {
