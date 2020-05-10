@@ -14,4 +14,4 @@ Une grande expérience de le cuisine végétarienne, vegan, sans gluten, sans su
 Une grande expérience en tant que cheffe professionnelle, en France et à l'étranger
 
 \*\*\
-L’engagement pour une consommation durable et responsable, avec notamment un service 100% zéro déchet
+L’engagement pour une consommation durable et responsable, avec notamment des buffets 100% zéro déchet
