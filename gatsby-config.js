@@ -64,6 +64,6 @@ module.exports = {
       },
     },
     // 'gatsby-plugin-netlify',
-    // 'gatsby-plugin-preact',
+    'gatsby-plugin-preact',
   ],
 };

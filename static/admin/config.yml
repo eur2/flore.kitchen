@@ -22,6 +22,7 @@ collections:
               default: 'livraison'
             }
           - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Lien Zenchef', name: 'url', widget: 'string' }
           - { label: 'Texte', name: 'body', widget: 'markdown', required: false } 
       - file: 'content/metadata.md'
         label: 'Metadata'
@@ -143,7 +144,7 @@ collections:
       - { label: 'Texte', name: 'body', widget: 'markdown' }
 
   - name: 'menus'
-    label: 'Menu'
+    label: 'Buffet Menu'
     folder: 'content/menu'
     editor:
       preview: false    

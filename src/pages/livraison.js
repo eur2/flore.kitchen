@@ -14,39 +14,22 @@ const Livraison = ({ data }) => {
         description="Livraison de repas, Cheffe à domicile, traiteur sur mesure"
       />
       <nav className="fixed w100 b0 l0 r0 flex jc-center wrap p">
-        <a
-          href="https://bookings.zenchef.com/results?rid=354054&pid=1001"
-          className="center"
-        >
+        <a href={data.markdownRemark.frontmatter.url} className="center">
           Réserver sur ZENCHEF
         </a>
       </nav>
       <main>
         <article>
           <header>
-            <h3>Livraison de repas</h3>
             <h3>{data.markdownRemark.frontmatter.title}</h3>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            <h4>
-              Menus créatifs, sains et gourmands qui changent toutes les
-              semaines. Produits bio, issus de circuits courts via Le Zingam ou
-              Biocoop. Nous nous adaptons à vos régimes spéciaux ou allergies.
-            </h4>
-            <p>
-              Plats livrés froids à réchauffer vous-même au four/ micro-ondes/
-              casserole
-            </p>
-            <p></p>
-            <p>Livraison les jeudis, vendredis et samedis</p>
-            <p>Commande avant 12h la veille</p>
-            <p> Minimum de commande : 44€</p>
           </header>
           <div className="flex wrap">
             {posts.map(({ node: post }) => {
               return (
                 <div key={post.id} className="flex50 p border">
                   <a
-                    href="https://bookings.zenchef.com/results?rid=354054&pid=1001"
+                    href={data.markdownRemark.frontmatter.url}
                     className="center"
                   >
                     <div>
@@ -72,6 +55,7 @@ export const livraisonQuery = graphql`
       frontmatter {
         templateKey
         title
+        url
       }
     }
     allMarkdownRemark(
