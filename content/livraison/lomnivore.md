@@ -5,6 +5,6 @@ title: L'omnivore 24€
 ---
 Poireaux, vinaigrette au miso, graines caramélisées au miel
 
-Chorizo artisanal grillé, écrasé de pomme de terre aux herbes, confit d’oignons au romarin
+Haddock, lentilles, herbes fraîches, crème de betteraves, tahin et agrumes
 
 Moelleux aux carottes, amandes, noix de coco et cannelle
