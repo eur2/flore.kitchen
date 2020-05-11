@@ -1,7 +1,7 @@
 ---
 templateKey: livraisonmenu
 date: 2020-05-08T13:46:14.598Z
-title: Les petits plus 17€
+title: Les petits plus 18€
 ---
 *Un ensemble de trois produits 100% maison à utiliser dans votre cuisine au quotidien*
 
