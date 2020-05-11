@@ -11,9 +11,7 @@ Produits de saison et de qualité, en majorité issus de l'agriculture biologiqu
 
 Plats à réchauffer vous-même
 
-Livraison les jeudis, vendredis et samedis
-
-Livraison incluse dans Paris
+Livraison les jeudis, vendredis et samedis, incluse dans Paris
 
 Commande avant 12h la veille de votre livraison
 
