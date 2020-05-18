@@ -7,4 +7,4 @@ Crème de betteraves au curcuma, petits pois crus, granola salé
 
 Polenta aux graines torréfiées, pesto de fanes, légumes de printemps, fenouil et sauce gribiche 
 
-Cookies chocolat cacahuètes
+Ganache au chocolat corsé, fève de cacao, crumble
