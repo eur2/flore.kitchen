@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:43:08.143Z
 title: Le végétal 22€
 ---
-Chou-fleur rôti au garam massala, épinards, sauce au yaourt, raisins secs
+Crème de betteraves au curcuma, petits pois crus, granola salé
 
-Risotto d’épeautre aux petits légumes de printemps, féta, tofu fumé, citron et graines torréfiées, salade de radis
+Polenta aux graines torréfiées, pesto de fanes, légumes de printemps, fenouil et sauce gribiche 
 
-Rhubarbe pochée, crème coco-fève tonka
+Cookies chocolat cacahuètes
