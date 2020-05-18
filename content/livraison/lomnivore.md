@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:45:37.533Z
 title: L'omnivore 24€
 ---
-Poireaux, vinaigrette au miso, graines caramélisées au miel
+Oeuf façon mimosa au piment fumé et sésame grillé, ciboulette
 
-Haddock, lentilles, herbes fraîches, crème de betteraves, tahin et agrumes
+Maquereaux fumés, riz noir, citron, gingembre, salade de radis aux algues
 
-Moelleux aux carottes, amandes, noix de coco et cannelle
+Tarte rhubarbe sarrasin cardamome
