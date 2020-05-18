@@ -11,7 +11,7 @@ Produits de saison et de qualité, en majorité issus de l'agriculture biologiqu
 
 Plats à réchauffer vous-même
 
-Livraison les jeudis, vendredis et samedis, incluse dans Paris
+Livraison les jeudis, vendredis et samedis, incluse dans Paris 1,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 18, 19, 20, Pantin, Les Lilas, Romainville - autre lieu de livraison: me contacter
 
 Commande avant 12h la veille de votre livraison
 
