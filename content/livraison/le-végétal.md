@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:43:08.143Z
 title: Le végétal 22€
 ---
-Crème de betteraves au curcuma, petits pois crus, granola salé
+Crème de carottes aux épices, rhubarbe, aneth et échalote
 
-Polenta aux graines torréfiées, pesto de fanes, légumes de printemps, fenouil et sauce gribiche 
+Feuille de blette farcie d'un risotto au citron confit, crème de persil, salade croquante
 
-Ganache au chocolat corsé, fève de cacao, crumble
+Pomme poêlée, caramel au beurre salé, crumble au sarrasin
