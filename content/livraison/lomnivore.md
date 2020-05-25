@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:45:37.533Z
 title: L'omnivore 24€
 ---
-Oeuf façon mimosa au piment fumé et sésame grillé, ciboulette
+Haricots verts, radis, chutney à la noix de coco et à la coriandre
 
-Maquereaux fumés, riz noir, citron, gingembre, salade de radis aux algues
+Harengs fumés, écrasé de pomme de terre aux herbes, câpres, salade de chou à l'orange
 
-Tarte rhubarbe sarrasin cardamome
+Cersies, crème à la mélisee
