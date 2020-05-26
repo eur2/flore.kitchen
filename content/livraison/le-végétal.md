@@ -5,6 +5,6 @@ title: Le végétal 22€
 ---
 Crème de carottes aux épices, rhubarbe, aneth et échalote
 
-Feuille de blette farcie d'un risotto au citron confit, crème de persil, salade croquante
+Feuille de blette farcie d'un risotto au citron confit, sauce au persil, salade croquante
 
 Pomme poêlée, caramel au beurre salé, crumble au sarrasin
