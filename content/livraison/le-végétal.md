@@ -7,4 +7,4 @@ Aubergines fondantes, vinaigrette à la citronnelle, concombre
 
 Mijoté de haricots blancs à la tomate, pastis, petits légumes d'été, pistou
 
-Mousse au chocolat, café et épices douces
+Compotée de cerises et mousse à la mascarpone
