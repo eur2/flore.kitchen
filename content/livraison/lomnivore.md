@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:45:37.533Z
 title: L'omnivore 24€
 ---
-Betteraves nouvelles, lentilles sauce tahin et menthe
+Salade de pastèque, échalote, fenouil, citron
 
-Merlu, mayonaise aux herbes, épeautre, zaa'tar, coriandre, concombre
+Haddock, lentilles mijotées au curry, pickles de cerises et salade croquante
 
-Fraises, mousse au fromage blanc et fleur d'oranger
+Mousse au chocolat, café et épices douces
