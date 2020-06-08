@@ -13,8 +13,8 @@ Plats à réchauffer vous-même
 
 Livraison les jeudis, vendredis et samedis
 
-Livraison incluse dans Paris 1,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 18, 19, 20, Pantin, Les Lilas, Romainville - pour être livré ailleurs: me contacter
+Livraison incluse dans Paris, Pantin, Les Lilas, Romainville - pour être livré ailleurs: me contacter
 
-Commande avant 12h la veille de votre livraison
+**Commande avant mercredi 18h**
 
 Pour chaque commande, un 1€ sera reversé à l'association [Ernest](http://hello-ernest.com/fr/) qui finance l'aide alimentaire à Paris
