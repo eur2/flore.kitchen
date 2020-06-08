@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:43:08.143Z
 title: Le végétal 22€
 ---
-Fenouil, roquette, fourme d’Ambert et cerises
+Aubergines fondantes, vinaigrette à la citronnelle, concombre
 
-Socca (galette de pois chiches), légumes sautés aux zestes de citron, éclats de fève de cacao, salade croquante et pois chiches grillés
+Mijoté de haricots blancs à la tomate, pastis, petits légumes d'été, pistou
 
-Riz noir au lait de coco, cardamome et sésame
+Mousse au chocolat, café et épices douces
