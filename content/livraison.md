@@ -15,6 +15,6 @@ Livraison les jeudis, vendredis et samedis
 
 Livraison incluse dans Paris, Pantin, Les Lilas, Romainville - pour être livré ailleurs: me contacter
 
-**Commande avant mercredi 18h**
+**Commande jusqu'à 12h la veille**
 
 Pour chaque commande, un 1€ sera reversé à l'association [Ernest](http://hello-ernest.com/fr/) qui finance l'aide alimentaire à Paris
