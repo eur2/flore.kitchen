@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:43:08.143Z
 title: Le végétal 22€
 ---
-Aubergines fondantes, vinaigrette à la citronnelle, concombre
+Pommes de terre, petits pois, courgettes crues et coulis de persil
 
-Mijoté de haricots blancs à la tomate, pastis, petits légumes d'été, pistou
+Aubergine farcie aux lentilles, tomates, piment fumé, salade de concombre aux herbes
 
-Compotée de cerises et mousse à la mascarpone
+Moelleux aux abricots et sarrasin
