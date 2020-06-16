@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:45:37.533Z
 title: L'omnivore 24€
 ---
-Salade de pastèque, échalote, fenouil, citron
+Houmous au citron confit et aux herbes, pois chiches grillés
 
-Haddock, lentilles mijotées au curry, pickles de cerises et salade croquante
+Maquereaux mariné, crème de betteraves acidulée, sarrasin grillé
 
-Mousse au chocolat, café et épices douces
+Fraises et crème au basilic
