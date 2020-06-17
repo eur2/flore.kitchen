@@ -5,6 +5,6 @@ title: L'omnivore 24€
 ---
 Houmous au citron confit et aux herbes, pois chiches croustillants
 
-Maquereaux mariné, crème de betteraves acidulée, sarrasin grillé
+Maquereaux mariné au gingembre et orange, crème de betteraves acidulée, sarrasin grillé
 
 Fraises et crème au basilic
