@@ -5,6 +5,6 @@ title: Le végétal 22€
 ---
 Petits pois, pommes de terre nouvelles, courgettes crues et coulis de persil
 
-Aubergine farcie aux lentilles, tomates, citron confit, piment fumé, salade de concombre aux herbes et sésame torréfié
+Aubergine farcie aux lentilles, tomates et piment fumé, yaourt grec, salade de concombre aux herbes et sésame torréfié
 
 Moelleux aux abricots et sarrasin
