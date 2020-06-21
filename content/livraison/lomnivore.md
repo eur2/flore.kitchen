@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:45:37.533Z
 title: L'omnivore 24€
 ---
-Houmous au citron confit et aux herbes, pois chiches croustillants
+Clafoutis à la crème crue et à la féta
 
-Maquereaux mariné au gingembre et orange, crème de betteraves acidulée, sarrasin grillé
+Merlu, mayonnaise aux herbes, épeautre, carottes rôties (FROID)
 
-Fraises et crème au basilic
+Compotée de cerises et financier
