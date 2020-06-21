@@ -3,8 +3,8 @@ templateKey: livraisonmenu
 date: 2020-05-08T13:43:08.143Z
 title: Le végétal 22€
 ---
-Petits pois, pommes de terre nouvelles, courgettes crues et coulis de persil
+Betteraves rôties, coriandre, vinaigrette à la fleur d'oranger
 
-Aubergine farcie aux lentilles, tomates et piment fumé, yaourt grec, salade de concombre aux herbes et sésame torréfié
+Mijoté de pois chiches, épinards et citron confit, yaourt, menthe, chips de pita
 
-Moelleux aux abricots et sarrasin
+Riz noir au lait de coco et cardamome
