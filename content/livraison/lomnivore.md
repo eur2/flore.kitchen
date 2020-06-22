@@ -5,6 +5,6 @@ title: L'omnivore 24€
 ---
 Panacotta de petits pois, algues nori et zeste de citron
 
-Merlu, mayonnaise aux herbes, épeautre, carottes rôties (FROID)
+Merlu, mayonnaise aux herbes, épeautre, carottes rôties, concombre (FROID)
 
-Compotée de cerises et crumble
+Financier à la fève tonka et cerises
