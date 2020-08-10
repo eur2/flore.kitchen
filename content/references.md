@@ -3,15 +3,11 @@ templateKey: references
 title: Références
 subtitle: xxx
 logos:
-  - image: /assets/ref-1.jpg
   - image: /assets/ref-1.png
   - image: /assets/ref-2.jpg
   - image: /assets/ref-2.png
   - image: /assets/ref-3.png
   - image: /assets/ref-4.png
-  - image: /assets/ref-5.png
-  - image: /assets/ref-6.png
-  - image: /assets/ref.jpg
   - image: /assets/philharmonie.jpg
   - image: /assets/marque-puissante-strategie-creation-valeur-accenture-201904.jpg
   - image: /assets/logo-crédit-agricole-png.png
