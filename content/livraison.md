@@ -1,20 +1,10 @@
 ---
 templateKey: livraison
 title: Livraison de repas
-url: https://bookings.zenchef.com/results?rid=354054&pid=1001
+url: xxx
 ---
-#### Chaque semaine, des nouveaux menus créatifs, sains et gourmands !
+#### Les livraisons n'ont plus lieu pour le moment. Pour une offre sur mesure, contactez-moi !
 
-#### Nous nous adaptons à vos régimes spéciaux ou allergies.
+floregranboulan@gmail.com
 
-Produits de saison et de qualité, en majorité issus de l'agriculture biologique
-
-Plats à réchauffer vous-même
-
-Livraison les jeudis, vendredis et samedis
-
-Livraison incluse dans Paris, Pantin, Les Lilas, Romainville - pour être livré ailleurs: me contacter
-
-**Commande jusqu'à 12h la veille**
-
-Pour chaque commande, un 1€ sera reversé à l'association [Ernest](http://hello-ernest.com/fr/) qui finance l'aide alimentaire à Paris
+07 68 68 65 01
