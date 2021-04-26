@@ -19,11 +19,11 @@ const Index = ({ data }) => {
       <Nav />
       <main>
         <Section posts={posts} id="intro">
-          <Instagram
+          {/* <Instagram
             userId={INSTAGRAM_ID}
             thumbnailWidth={THUMBNAIL_WIDTH}
             photoCount={PHOTO_COUNT}
-          />
+          /> */}
         </Section>
         <Prestations posts={posts} id="post" />
         <Section posts={posts} id="biographie" />
