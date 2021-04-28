@@ -4,7 +4,7 @@ title: Conception de recettes
 slug: 5-conception-recettes
 menu:
   - credit: "Photo: Thomas Jaspers"
-    image: /assets/DSCF0068.JPG
+    image: /assets/dscf8476.jpg
     title: ""
   - credit: "Photo: Thomas Jaspers"
     image: /assets/DSCF0053.jpg
