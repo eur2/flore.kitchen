@@ -3,7 +3,7 @@ templateKey: post
 title: Buffets
 slug: 3-buffets
 menu:
-  - image: /assets/dscf8476.jpg
+  - image: /assets/dscf8587.jpg
     plats:
       - plat: Mijoté aux deux lentilles, potimarron rôti aux épices douces, lait de
           coco, graines de moutarde noire et cardamome
