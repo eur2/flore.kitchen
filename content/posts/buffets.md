@@ -23,3 +23,5 @@ menu:
     title: Menu d’arrivée du printemps
 ---
 #### Des plats créatifs, gourmands et conviviaux servis en buffet pour toutes vos occasions festives.
+
+*A partir de 25€ hors taxe par personne, minimum de 15 personnes*
