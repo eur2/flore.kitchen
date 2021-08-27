@@ -11,6 +11,7 @@ logos:
   - image: /assets/philharmonie.jpg
   - image: /assets/marque-puissante-strategie-creation-valeur-accenture-201904.jpg
   - image: /assets/logo-crédit-agricole-png.png
+  - image: /assets/images_004.png
 image: /assets/IMG_9776.JPG
 ---
 *"*\[...] *Objectif affiché des Pères Populaires: rendre l'ordinaire extra, à prix cafète! Ce que Flore Granboulan s'applique à faire avec brio en proposant en semaine des menus dej de haute volée* \[...]" Julie Gerbet au sujet des Pères populaires - Le Fooding 2016
