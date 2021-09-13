@@ -39,11 +39,11 @@ const Header = ({ title, subtitle, image, logo, facebook, instagram }) => (
 
       <h2>{subtitle}</h2>
 
-      <div className="flex w100 wrap jc-center">
+      {/* <div className="flex w100 wrap jc-center">
         <Link className="border" to="/livraison/">
           Livraison de repas
         </Link>
-      </div>
+      </div> */}
 
       {/* <Order /> */}
 
