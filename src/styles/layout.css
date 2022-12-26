@@ -266,18 +266,9 @@ footer {
 .content p {
   padding: 0.5em;
 }
-/* .p1 {
-  padding: 1em;
-} */
 .pb0 {
   padding-bottom: 0 !important;
 }
-/* .none {
-  display: none;
-} */
-/* .block {
-  display: block;
-} */
 .flex {
   display: flex;
 }
