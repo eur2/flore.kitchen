@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@/dist/cms.css" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    @media (max-width: 799px) {
+
+      [class*=BackCollection],
+      [class*=BackStatus] {
+        font-size: .6rem;
+      }
+
+      [class*=AppHeaderContent],
+      [class*=AppMainContainer] {
+        margin-right: 0;
+        margin-left: 0;
+        min-width: calc(100vw - 24px);
+        max-width: 100vw;
+      }
+
+      [class*=AppHeaderContent] {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      [class*=AppHeaderQuickNewButton] {
+        width: 100%;
+      }
+
+      [class*=AppHeaderButton] {
+        padding-left: 4px;
+        padding-right: 4px;
+      }
+
+      [class*=EditorContainer],
+      [class*=ToolbarContainer] {
+        min-width: initial;
+      }
+
+      [class*=ToolbarSubSectionFirst] {
+        display: flex;
+        flex-direction: column;
+      }
+
+      [class*=PublishedToolbarButton] {
+        padding: 0 8px;
+      }
+
+      [class*=PublishedToolbarButton]::after {
+        display: none;
+      }
+
+      [class*=DeleteButton] {
+        margin-top: 5px;
+        padding: 0 2px;
+      }
+
+      [class*=ViewControls] {
+        position: initial;
+      }
+
+      [class*=PreviewPaneContainer-ControlPaneContainer] {
+        padding: 0;
+      }
+
+      [class*=ControlPaneContainer] {
+        max-width: 100vw;
+      }
+
+
+      [class*=EditorControlBar] [class*=ToolbarContainer] {
+        display: flex;
+        flex-direction: column;
+      }
+
+      [class*=CollectionContainer] {
+        display: flex;
+        flex-direction: column;
+      }
+
+      [class*=SidebarContainer] {
+        position: initial;
+        width: initial;
+      }
+
+      [class*=CollectionMain] {
+        padding-left: 0;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <script src="https://unpkg.com/netlify-cms/dist/cms.js"></script>
+</body>
+
+</html>

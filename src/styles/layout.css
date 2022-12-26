@@ -197,7 +197,6 @@ section {
 }
 .h50 {
   height: 50vh;
-  width: auto;
 }
 /* .w50 {
   width: 50%;
@@ -252,6 +251,9 @@ footer {
 }
 .m1 {
   margin: 1em;
+}
+.m-logo{
+  margin: 1em 0 1em 0;
 }
 .m-auto {
   margin: auto;

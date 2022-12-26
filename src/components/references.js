@@ -1,10 +1,10 @@
-import React from 'react';
-import Img from 'gatsby-image';
+import * as React from 'react';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 const References = ({ posts, id }) => (
   <>
     {posts
-      .filter(post => post.node.frontmatter.templateKey === `${id}`)
+      .filter((post) => post.node.frontmatter.templateKey === `${id}`)
       .map(({ node: post }) => (
         <section key={`k${id}`} id={id}>
           <header>
@@ -18,20 +18,20 @@ const References = ({ posts, id }) => (
             {post.frontmatter.logos &&
               post.frontmatter.logos.map((item, index) => (
                 <div className="logo flex100" key={index}>
-                  {item.image.childImageSharp.fluid && (
-                    <Img
-                      fluid={item.image.childImageSharp.fluid}
+                  {item.image && (
+                    <GatsbyImage
+                      image={item.image.childImageSharp.gatsbyImageData}
+                      alt="flore kitchen client"
                       style={{ margin: 'auto' }}
-                      alt="client"
                     />
                   )}
                 </div>
               ))}
           </div>
-          {post.frontmatter.image.childImageSharp.fluid && (
-            <Img
-              fluid={post.frontmatter.image.childImageSharp.fluid}
-              alt="flore"
+          {post.frontmatter.image && (
+            <GatsbyImage
+              image={post.frontmatter.image.childImageSharp.gatsbyImageData}
+              alt="flore kitchen"
             />
           )}
         </section>

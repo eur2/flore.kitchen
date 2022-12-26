@@ -1,10 +1,10 @@
-import React from 'react';
-import Img from 'gatsby-image';
+import * as React from 'react';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 const Section = ({ posts, id, children }) => (
   <>
     {posts
-      .filter(post => post.node.frontmatter.templateKey === `${id}`)
+      .filter((post) => post.node.frontmatter.templateKey === `${id}`)
       .map(({ node: post }) => (
         <section key={`k${id}`} id={id}>
           <header>
@@ -13,9 +13,9 @@ const Section = ({ posts, id, children }) => (
           </header>
           {post.frontmatter.image && (
             <div>
-              <Img
-                fluid={post.frontmatter.image.childImageSharp.fluid}
-                alt="flore"
+              <GatsbyImage
+                image={post.frontmatter.image.childImageSharp.gatsbyImageData}
+                alt="flore kitchen"
               />
             </div>
           )}

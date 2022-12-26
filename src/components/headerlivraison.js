@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 
 const HeaderLivraison = ({
@@ -66,7 +66,7 @@ const HeaderLivraison = ({
         </a>
       )}
     </div>
-    {image && <Img fluid={image} style={{ maxwidth: '100%' }} alt={title} />}
+    {image && <GatsbyImage image={image} alt={title} />}
   </header>
 );
 export default HeaderLivraison;

@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: master
 
 media_folder: static/assets
 public_folder: /assets
@@ -8,12 +8,10 @@ public_folder: /assets
 collections:    
   - name: 'section'
     label: 'Section'
-    media_folder: ''
-    public_folder: ''
     editor:
       preview: false
     files:
-      - file: 'content/livraison/index.md'
+      - file: 'content/livraison.md'
         label: 'Livraison'
         name: 'livraison'
         fields:
@@ -26,7 +24,7 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Lien Zenchef', name: 'url', widget: 'string' }
           - { label: 'Texte', name: 'body', widget: 'markdown', required: false } 
-      - file: 'content/metadata/index.md'
+      - file: 'content/metadata.md'
         label: 'Metadata'
         name: 'metadata'
         fields:
@@ -46,7 +44,7 @@ collections:
           - { label: 'Tél', name: 'tel', widget: 'string', required: false }          
           - { label: 'Email', name: 'email', widget: 'string', required: false }
           - { label: 'Adresse', name: 'address', widget: 'string', required: false }         
-      - file: 'content/intro/index.md'
+      - file: 'content/intro.md'
         label: 'Intro'
         name: 'intro'
         fields:
@@ -58,7 +56,7 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Texte', name: 'body', widget: 'markdown', required: false }         
-      - file: 'content/biographie/index.md'
+      - file: 'content/biographie.md'
         label: 'Bio'
         name: 'biographie'
         fields:
@@ -71,7 +69,7 @@ collections:
           - { label: 'Titre', name: 'title', widget: 'string' }
           - { label: 'Texte', name: 'body', widget: 'markdown', required: false }
           - { label: 'Image', name: 'image', widget: 'image', required: false }
-      - file: 'content/references/index.md'
+      - file: 'content/references.md'
         label: 'Références'
         name: 'references'
         fields:
@@ -97,9 +95,6 @@ collections:
   - name: 'posts'
     label: 'Prestation'
     folder: 'content/posts'
-    path: '{{slug}}/index'
-    media_folder: ''
-    public_folder: ''
     editor:
       preview: false    
     create: true
@@ -132,10 +127,7 @@ collections:
             }  
   - name: 'livraison'
     label: 'Livraison Menu'
-    folder: 'content/livraison-menu'
-    path: '{{slug}}/index'
-    media_folder: ''
-    public_folder: ''
+    folder: 'content/livraison'
     editor:
       preview: false    
     create: true
@@ -154,9 +146,6 @@ collections:
   - name: 'menus'
     label: 'Buffet Menu'
     folder: 'content/menu'
-    path: '{{slug}}/index'
-    media_folder: ''
-    public_folder: ''
     editor:
       preview: false    
     create: true

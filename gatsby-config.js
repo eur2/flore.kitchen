@@ -1,11 +1,5 @@
 module.exports = {
-  // pathPrefix: `/`,
-  // siteMetadata: {
-  //   title: ``,
-  //   description: ``,
-  // },  
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -20,19 +14,13 @@ module.exports = {
         name: 'content',
       },
     },
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        tableOfContents: {
-          heading: null,
-          maxDepth: 1,
-        },
         plugins: [
-          {
-            resolve: `gatsby-remark-relative-images`,
-          },
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -41,7 +29,7 @@ module.exports = {
               backgroundColor: 'transparent',
               linkImagesToOriginal: false,
               disableBgImage: true,
-              wrapperStyle:'margin-top:.5em;margin-bottom:.5em;',
+              wrapperStyle:'margin-top:.5em;margin-bottom:.5em;'
             },
           },
         ],
@@ -50,20 +38,16 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Flore',
-        short_name: 'Flore',
+        name: 'Flore Kitchen',
+        short_name: 'Flore Kitchen',
         start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#000000',
         display: 'standalone',
-        icon: `static/logo-c.png`,
+        icon: `static/assets/logo-c.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
-    // 'gatsby-plugin-netlify',
+    'gatsby-plugin-offline',
     'gatsby-plugin-preact',
   ],
 };

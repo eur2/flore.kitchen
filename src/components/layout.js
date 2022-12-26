@@ -1,111 +1,45 @@
-import React from 'react';
-// import { Helmet } from 'react-helmet';
-//import PropTypes from 'prop-types';
-import { graphql, StaticQuery } from 'gatsby';
+import * as React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import '../styles/layout.css';
-// import '../styles/print.css';
-import Head from './head';
 import Header from './header';
-import HeaderLivraison from './headerlivraison';
 import Contact from './contact';
 
-const Layout = ({ children, location }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteMeta {
-        markdownRemark(frontmatter: { templateKey: { eq: "metadata" } }) {
-          html
-          frontmatter {
-            templateKey
-            title
-            subtitle
-            description
-            image {
-              publicURL
-              id
-              childImageSharp {
-                fluid(maxWidth: 1600, quality: 70) {
-                  ...GatsbyImageSharpFluid_noBase64
-                }
-              }
-            }
-            logo {
-              publicURL
-              id
-              childImageSharp {
-                fluid(maxWidth: 180, quality: 80) {
-                  ...GatsbyImageSharpFluid_noBase64
-                }
-              }
-            }
-            instagram
-            facebook
-            tel
-            email
-            address
-          }
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query SiteMeta {
+      markdownRemark(frontmatter: { templateKey: { eq: "metadata" } }) {
+        html
+        frontmatter {
+          templateKey
+          tel
+          email
+          address
         }
       }
-    `}
-    render={(data) => (
-      <>
-        <Head
-          title={data.markdownRemark.frontmatter.title}
-          subtitle={data.markdownRemark.frontmatter.subtitle}
-          description={data.markdownRemark.frontmatter.description}
-          image={data.markdownRemark.frontmatter.logo.publicURL}
-        />
-        {location === 'livraison' ? (
-          <HeaderLivraison
-            title={data.markdownRemark.frontmatter.title}
-            subtitle={data.markdownRemark.frontmatter.subtitle}
-            logo={data.markdownRemark.frontmatter.logo.childImageSharp.fluid}
-            email={data.markdownRemark.frontmatter.email}
-            instagram={data.markdownRemark.frontmatter.instagram}
-            facebook={data.markdownRemark.frontmatter.facebook}
-          />
-        ) : (
-          <Header
-            title={data.markdownRemark.frontmatter.title}
-            subtitle={data.markdownRemark.frontmatter.subtitle}
-            image={data.markdownRemark.frontmatter.image.childImageSharp.fluid}
-            logo={data.markdownRemark.frontmatter.logo.childImageSharp.fluid}
-            tel={data.markdownRemark.frontmatter.tel}
-            email={data.markdownRemark.frontmatter.email}
-            instagram={data.markdownRemark.frontmatter.instagram}
-            facebook={data.markdownRemark.frontmatter.facebook}
-          />
-        )}
-        {children}
-        <Contact
-          tel={data.markdownRemark.frontmatter.tel}
-          email={data.markdownRemark.frontmatter.email}
-          address={data.markdownRemark.frontmatter.address}
-        />
-      </>
-    )}
-  />
-);
+    }
+  `);
+  return (
+    <>
+      <Header />
 
+      {children}
+      <Contact
+        tel={data.markdownRemark.frontmatter.tel}
+        email={data.markdownRemark.frontmatter.email}
+        address={data.markdownRemark.frontmatter.address}
+      />
+    </>
+  );
+};
 export default Layout;
 
-// const Layout = ({ children, title, subtitle, description, image }) => (
-//   <>
-//     <Helmet>
-//       <html lang="fr" />
-//       <title>{`${title} — ${subtitle}`}</title>
-//       <meta name="description" content={description} />
-//       <meta name="og:title" content={`${title} — ${subtitle}`} />
-//       <meta name="og:description" content={description} />
-//       <meta name="og:type" content="website" />
-//       <meta name="og:image" content={image} />
-//       <meta name="twitter:card" content="summary" />
-//       <meta name="twitter:title" content={`${title} — ${subtitle}`} />
-//       <meta name="twitter:description" content={description} />
-//       <meta name="twitter:image" content={image} />
-//     </Helmet>
-//     {children}
-//   </>
-// );
-
-// export default Layout;
+// image {
+//   childImageSharp {
+//     gatsbyImageData(width: 1600, layout: CONSTRAINED)
+//   }
+// }
+// logo {
+//   childImageSharp {
+//     gatsbyImageData(width: 180, layout: CONSTRAINED)
+//   }
+// }
