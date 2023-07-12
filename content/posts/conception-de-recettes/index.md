@@ -6,8 +6,8 @@ menu:
   - credit: "Photo: Thomas Jaspers"
     image: dscf8476.jpg
     title: ""
-  - credit: "Photo: Thomas Jaspers"
-    image: dscf0053.jpg
+  - credit: ""
+    image: image00038.jpeg
     title: ""
 ---
 #### Flore crée pour vous, votre marque ou votre événement des recettes ou des menus.
