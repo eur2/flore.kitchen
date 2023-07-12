@@ -30,4 +30,4 @@ menu:
 ---
 #### Flore prend en charge votre repas chez vous de A à Z, des propositions de menus au rangement de la cuisine.
 
-*A partir de 55€ hors taxe par personne, minimum de 8 personnes.*
+*A partir de 65€ hors taxe par personne, minimum de 8 personnes.*
