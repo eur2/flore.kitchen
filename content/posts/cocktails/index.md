@@ -3,7 +3,7 @@ templateKey: post
 title: Cocktails
 slug: 2-cocktails
 menu:
-  - image: dscf8542.jpg
+  - image: image00042.jpeg
     plats:
       - plat: Gaspacho de betteraves à l’orange, crème montée à l’aneth
       - plat: Tartelette aux asperges croquante, fromage frais et verveine
@@ -11,7 +11,7 @@ menu:
       - plat: Pickles de shitake au café, œuf et ciboulette
       - plat: Magret rosé, crème de potimarron, pomme acidulée
     title: Menu salé
-  - image: img_0158.jpg
+  - image: image00032.jpeg
     plats:
       - plat: Rhubarbe rôtie, crème coco-cardamome, biscuit à l’avoine
       - plat: Mousse au pamplemousse, tuile croustillante, shiso
