@@ -13,7 +13,7 @@ menu:
       - plat: Pickles de betteraves au gingembre
       - plat: Fondant à la courge et aux amandes, caramel au café
     title: Menu couleurs d’hiver
-  - image: legumes.jpg
+  - image: image00030.jpeg
     plats:
       - plat: Polenta fondante aux herbes de Provence et aux olives de Kalamata
       - plat: Sauce tomate relevée au pastis et à l’orange
