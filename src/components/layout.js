@@ -14,7 +14,9 @@ const Layout = ({ children }) => {
           tel
           email
           address
-          cgv
+          cgv {
+            publicURL
+          }
         }
       }
     }
@@ -28,7 +30,7 @@ const Layout = ({ children }) => {
         tel={data.markdownRemark.frontmatter.tel}
         email={data.markdownRemark.frontmatter.email}
         address={data.markdownRemark.frontmatter.address}
-        cgv={data.markdownRemark.frontmatter.cgv}
+        cgv={data.markdownRemark.frontmatter.cgv.publicURL}
       />
     </>
   );
