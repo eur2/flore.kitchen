@@ -45,7 +45,8 @@ collections:
           - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
           - { label: 'Tél', name: 'tel', widget: 'string', required: false }          
           - { label: 'Email', name: 'email', widget: 'string', required: false }
-          - { label: 'Adresse', name: 'address', widget: 'string', required: false }         
+          - { label: 'Adresse', name: 'address', widget: 'string', required: false }     
+          - { label: 'CGV', name: 'cgv', widget: 'file', required: false }                   
       - file: 'content/intro/index.md'
         label: 'Intro'
         name: 'intro'
