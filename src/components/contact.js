@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const Contact = ({ tel, email, address }) => (
+const Contact = ({ tel, email, address, cgv }) => (
   <section id="contact">
     <header>
       <h3>Contact</h3>
@@ -12,6 +12,7 @@ const Contact = ({ tel, email, address }) => (
       </h2>
     </header>
     <p>{address}</p>
+    <p><a href={`${cgv}`}>Conditions générales de vente</a></p>
   </section>
 );
 export default Contact;
