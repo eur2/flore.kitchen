@@ -1,0 +1,160 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/assets
+public_folder: /assets
+
+collections:    
+  - name: 'section'
+    label: 'Section'
+    editor:
+      preview: false
+    files:
+      - file: 'src/content/livraison/index.md'
+        label: 'Livraison'
+        name: 'livraison'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'livraison'
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Lien Zenchef', name: 'url', widget: 'string' }
+          - { label: 'Texte', name: 'body', widget: 'markdown', required: false } 
+      - file: 'src/content/metadata/index.md'
+        label: 'Metadata'
+        name: 'metadata'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'metadata'
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'text' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Logo', name: 'logo', widget: 'image' }
+          - { label: 'Instagram', name: 'instagram', widget: 'string', required: false }
+          - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
+          - { label: 'Tél', name: 'tel', widget: 'string', required: false }          
+          - { label: 'Email', name: 'email', widget: 'string', required: false }
+          - { label: 'Adresse', name: 'address', widget: 'string', required: false }     
+          - { label: 'CGV', name: 'cgv', widget: 'file', required: false }                   
+      - file: 'src/content/intro/index.md'
+        label: 'Intro'
+        name: 'intro'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'intro'
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Texte', name: 'body', widget: 'markdown', required: false }         
+      - file: 'src/content/biographie/index.md'
+        label: 'Bio'
+        name: 'biographie'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'biographie'
+            }
+          - { label: 'Titre', name: 'title', widget: 'string' }
+          - { label: 'Texte', name: 'body', widget: 'markdown', required: false }
+          - { label: 'Image', name: 'image', widget: 'image', required: false }
+      - file: 'src/content/references/index.md'
+        label: 'Références'
+        name: 'references'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'references'
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Sous-titre', name: 'subtitle', widget: 'text', required: false }
+          - { label: 'Texte', name: 'body', widget: 'markdown', required: false }
+          - { label: 'Client logo',
+              name: 'logos',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Image', name: 'image', widget: 'image' }
+                ]
+            }   
+          - { label: 'Image', name: 'image', widget: 'image', required: false } 
+          
+  - name: 'prestations'
+    label: 'Prestation'
+    folder: 'src/content/prestations'
+    editor:
+      preview: false    
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'prestations',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'hidden' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Texte', name: 'body', widget: 'markdown' }
+      - { label: 'Menu',
+            name: 'menu',
+            widget: 'list',
+            fields:
+              [
+                { label: 'Titre', name: 'title', widget: 'string', required: false },
+                { label: 'Image', name: 'image', widget: 'image', required: false },
+                { label: 'Credit Photo', name: 'credit', widget: 'string', required: false },
+                { label: 'Plats', name: 'plats', widget: 'list', fields:
+                  [
+                    { label: 'Plat', name: 'plat', widget: 'string' }
+                  ] 
+                }
+              ]
+            }  
+  - name: 'livraison'
+    label: 'Livraison Menu'
+    folder: 'src/content/livraison-menu'
+    editor:
+      preview: false    
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'livraisonmenu',
+        }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Texte', name: 'body', widget: 'markdown' }
+
+  - name: 'menus'
+    label: 'Buffet Menu'
+    folder: 'src/content/menu'
+    editor:
+      preview: false    
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'menu',
+        }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Texte', name: 'body', widget: 'markdown' }

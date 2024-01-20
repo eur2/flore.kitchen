@@ -1,0 +1,24 @@
+---
+interface Props {
+  tel: string;
+  email: string;
+  address: string;
+  cgv: string;
+}
+
+const { tel, address, email, cgv } = Astro.props;
+---
+
+<section id="contact">
+  <header>
+    <h3>Contact</h3>
+    <h2>
+      <a href={`tel:${tel}`}>{tel}</a>
+    </h2>
+    <h2>
+      <a href={`mailto:${email}`}>{email}</a>
+    </h2>
+  </header>
+  <p>{address}</p>
+  <p><a href={`${cgv}`}>Conditions générales de vente</a></p>
+</section>

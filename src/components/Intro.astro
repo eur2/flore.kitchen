@@ -1,0 +1,18 @@
+---
+import * as post from "../content/intro/index.md";
+// import {Image} from "astro:assets";
+---
+
+<section id="intro">
+  <header>
+    <h3>{post.frontmatter.title}</h3>
+    <div set:html={post.compiledContent()} />
+  </header>
+  {
+    post.frontmatter.image && (
+      <div>
+        <img src={post.frontmatter.image} alt="flore kitchen" />
+      </div>
+    )
+  }
+</section>

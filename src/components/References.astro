@@ -1,0 +1,32 @@
+---
+import * as post from "../content/references/index.md";
+// import {Image} from "astro:assets";
+---
+
+<section id="references">
+  <header>
+    <h3>{post.frontmatter.title}</h3>
+  </header>
+  <div class="content" set:html={post.compiledContent()} />
+  <div class="flex ai-center jc-center wrap p">
+    {
+      post.frontmatter.logos &&
+        post.frontmatter.logos.map((item) => (
+          <div class="logo flex100">
+            {item.image && (
+              <img
+                src={item.image}
+                alt="flore kitchen client"
+                style={{ margin: "auto" }}
+              />
+            )}
+          </div>
+        ))
+    }
+  </div>
+  {
+    post.frontmatter.image && (
+      <img src={post.frontmatter.image} alt="flore kitchen" />
+    )
+  }
+</section>

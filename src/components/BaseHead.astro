@@ -1,0 +1,37 @@
+---
+// Import the global.css file here so that it is included on
+// all pages through the use of the <BaseHead /> component.
+import "../styles/global.css";
+
+export interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+const { title, description, image = "/favicon.png" } = Astro.props;
+import { ViewTransitions } from "astro:transitions";
+---
+
+<!-- Global Metadata -->
+<ViewTransitions />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+<!-- <link
+  rel="preload"
+  href="/static/Arial-Black-c2d4ff8e1cf7f577debc50833fba6728.woff2"
+  as="font"
+  crossOrigin="anonymous"
+/> -->
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={Astro.url} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={new URL(image, Astro.url)} />

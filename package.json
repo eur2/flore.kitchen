@@ -1,39 +1,20 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^4.22.0",
-    "gatsby-plugin-image": "^2.22.0",
-    "gatsby-plugin-manifest": "^4.22.0",
-    "gatsby-plugin-offline": "^5.22.0",
-    "gatsby-plugin-preact": "^6.22.0",
-    "gatsby-plugin-sharp": "^4.22.0",
-    "gatsby-remark-images": "^6.22.0",
-    "gatsby-source-filesystem": "^4.22.0",
-    "gatsby-transformer-remark": "^5.22.0",
-    "gatsby-transformer-sharp": "^4.22.0",
-    "preact": "^10.10.6",
-    "preact-render-to-string": "^5.2.2",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "name": "flore",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "build": "gatsby build",
-    "dev": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && jampack ./dist",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.2.1"
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "@divriots/jampack": "^0.23.2",
+    "prettier": "^3.2.4",
+    "prettier-plugin-astro": "^0.13.0"
   }
 }

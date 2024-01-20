@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Nav from "../components/Nav.astro";
+import Intro from "../components/Intro.astro";
+import Prestations from "../components/Prestations.astro";
+import Contact from "../components/Contact.astro";
+import Bio from "../components/Bio.astro";
+import References from "../components/References.astro";
+
+import * as metadata from "../content/metadata/index.md";
+---
+
+<Layout
+  title={metadata.frontmatter.title}
+  subtitle={metadata.frontmatter.subtitle}
+  description={metadata.frontmatter.description}
+  image={metadata.frontmatter.logo}
+/>
+<Header
+  title={metadata.frontmatter.title}
+  subtitle={metadata.frontmatter.subtitle}
+  logo={metadata.frontmatter.logo}
+  image={metadata.frontmatter.image}
+  instagram={metadata.frontmatter.instagram}
+  facebook={metadata.frontmatter.facebook}
+/>
+<Nav />
+<main>
+  <Intro />
+  <Prestations />
+  <Bio />
+  <References />
+</main>
+<Contact
+  tel={metadata.frontmatter.tel}
+  address={metadata.frontmatter.address}
+  cgv={metadata.frontmatter.cgv}
+  email={metadata.frontmatter.email}
+/>
