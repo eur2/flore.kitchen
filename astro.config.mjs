@@ -1,8 +1,17 @@
 import { defineConfig, passthroughImageService } from "astro/config";
+import partytown from "@astrojs/partytown";
+
 export default defineConfig({
   image: {
     service: passthroughImageService(),
   },
+  integrations: [
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
+  ],
 });
 
 // import { visit } from "unist-util-visit";
