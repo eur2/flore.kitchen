@@ -1,6 +1,6 @@
 ---
 templateKey: prestations
-title: "Buffets: petit-déjeuners, déjeuners, dîners, pauses permanentes"
+title: Buffets
 slug: 3-buffets
 menu:
   - image: /assets/dscf8587.jpg
@@ -23,5 +23,7 @@ menu:
     title: Menu d’arrivée du printemps
 ---
 #### Des plats créatifs, gourmands et conviviaux servis en buffet pour toutes vos occasions festives.
+
+Petit-déjeuners, déjeuners, diners, collations, pauses permanentes
 
 *A partir de 40€ hors taxe par personne, minimum de 20 personnes*
