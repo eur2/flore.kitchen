@@ -1,6 +1,6 @@
 ---
 templateKey: prestations
-title: Buffets
+title: "Buffets: petit-déjeuners, déjeuners, pauses permanentes, dîners..."
 slug: 3-buffets
 menu:
   - image: /assets/dscf8587.jpg
