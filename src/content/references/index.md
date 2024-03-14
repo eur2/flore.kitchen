@@ -18,8 +18,8 @@ logos:
   - image: /assets/sorbonne.png
 image: /assets/img_9776.jpg
 ---
-*"*\[...] *Objectif affiché des Pères Populaires: rendre l'ordinaire extra, à prix cafète! Ce que Flore Granboulan s'applique à faire avec brio en proposant en semaine des menus dej de haute volée* \[...]" Julie Gerbet au sujet des Pères populaires - Le Fooding 2016
+*"Un partenaire de confiance sur laquelle nous nous appuyons pour nos événements destinés aux mécènes. Nous apprécions tout particulièrement sa rigueur, son professionnalisme et la qualité des prestations, ainsi que sa créativité et ses engagements en matière de durabilité. Nous apprécions également le professionnalisme de ses équipes et sa réactivité"* La direction du développement économique du Palais de Tokyo - événements récurrents
+
+*"Nous avons retenu ses services pour un buffet à l'occasion du mariage de notre file et sa prestation a été excellente. Bien sûr la qualité des plats, originaux et unanimement appréciés, est tout à fait remarquable, mais aussi le service, la mise en place et le rangement du mobilier dans la discrétion et la bonne humeur ont été de tout premier plan"* Emmanuel C. - Mariage pour 90 personnes
 
 *"Super expérience avec Flore qui a préparé un buffet très varié, original et délicieux pour notre fête d'entreprise! Flore a été très sympathique, efficace et à l’écoute pour l’organisation de notre réception. Nous avons été très heureux de constater de plus qu'aucun plastique n’avait été utilisé"* Alix G. Adamantia - Cocktail pour 50 personnes
-
-*"Notre expérience avec a été parfaite : le diner était original et absolument délicieux. Flore a su trouver le bon équilibre entre discrétion et spontanéité... Nous avons passé une très bonne soirée, et nous recommandons Flore sans aucune hésitation !"* Alexandre de S. - Repas à domicile
